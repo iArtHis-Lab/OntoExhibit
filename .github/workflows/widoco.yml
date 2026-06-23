@@ -32,7 +32,7 @@ jobs:
           java -jar widoco.jar \
             -ontFile resources/ontoExhibit.rdf \
             -outFolder docs \
-            -confFile resources/widoco.properties \
+            -getOntologyMetadata \
             -rewriteAll \
             -webVowl \
             -oops \
