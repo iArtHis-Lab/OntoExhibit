@@ -4213,6 +4213,7 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Catalog">
   <h3>catalogue<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Catalog</p>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">Modeling guideline: Use Catalogue as Information_Object when it is primarily modeled as documentary support (credits, lists, descriptions, paratexts, references). Add typing as Work_Manifestation when the catalogue is modeled as a publishable/citable manifestation in its own right (edition, circulation, reception, authorship or editorial responsibility, versioning).</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4393,6 +4394,7 @@ This section provides details for each class and property defined by OntoExhibit
   <div class="comment">
    <span class="markdown">The "Communication Dispositif" class represents materials and events used to communicate and disseminate information about cultural activities and productions. These dispositifs typically include press releases, brochures, websites, social media posts, newsletters, and other structured systems or media that convey information to the public and stakeholders. Additionally, other objects and materials can also serve this purpose. Therefore, this class links cultural activities and productions with those propositional objects and events that inform about them, regardless of their nature, genre, or typology.</span>
   </div>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">This class is not disjoint with other dispositif types; see Dispositif modeling note.</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4904,6 +4906,7 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Creator">
   <h3>creator<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Creator</p>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">Techno-Actant is treated as a computational object and therefore as a propositional object: its modelling, rules, and operational logics embed explicit or implicit propositions that can intervene in exhibition ecologies (e.g., by producing, filtering, ordering, recommending, or moderating). Its affiliation to Actant expresses an attributed-agency facet in context—how it is referenced as participating in action—without implying personhood and without overriding its status as a produced computational object. This enables research questions such as:  “What implicit propositions about authorship, responsibility, and curatorial agency are embedded in the techno-actant used by exhibition X?” or “How do two techno-actants differ in the propositions they enact through their operational logics—e.g., what they generate, filter, rank, recommend, or moderate—and with what effects on visibility and interpretation?”.</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5138,6 +5141,7 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Database">
   <h3>database<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Database</p>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">Modeling guideline: Use Database as Information_Object (and as Computational_Object when relevant) when it is modeled primarily as an informational and/or technical resource. Add typing as Work_Manifestation only when the database is modeled as a released, citable manifestation (e.g., curated edition, versioned release, DOI or equivalent publication framing, circulation and reception).</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5417,6 +5421,7 @@ This section provides details for each class and property defined by OntoExhibit
   <div class="comment">
    <span class="markdown">In OntoExhibit, the "Dispositif" class represents a category that encompasses entities functioning as elements for documenting exhibitions, communicating information about them, facilitating their understanding, expanding their ideas, and more. This class includes various types of dispositifs such as documentation tools, communication materials, mediation activities, interpretative aids, and expansion apparatuses. A dispositif serves to enhance engagement, comprehension, expansion, and dissemination of knowledge related to exhibitions, making it a crucial component in the art exhibition domain’s discursive and social practices. Although in OntoExhibit this class is specifically designed to codify information about exhibitions, it can also be applied to other events and objects.</span>
   </div>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">In OntoExhibit, Dispositif classes are not intended to be mutually exclusive. A single dispositif instance may be typed under multiple functional subclasses (e.g., Communication_Dispositif and Mediation_Dispositif) when it simultaneously performs more than one function in the exhibition ecosystem. Likewise, the distinction between institutional and non-institutional dispositifs is used as a provenance facet—indicating origin, authorization, or production context—rather than as an essential ontological kind, even though it is represented through subclassing for practical querying and organization. Hybrid provenance is modeled by multiple typing: the same dispositif instance may be asserted both as Institutional Dispositif and Non-Institutional Dispositif when production, authorship, or authorization is mixed or co-produced. Undetermined cases may be left unclassified.</div>
   <dl class="description">
    <dt>
     has sub-classes
@@ -5477,6 +5482,7 @@ This section provides details for each class and property defined by OntoExhibit
   <div class="comment">
    <span class="markdown">The "Documentation Dispositif" class represents propositional objects used to document or register information, data, evidences, features, etc. with the aim of recording and preserving information about something. Classes that are susceptible to be documented are events, material objects, conceptual works, and places. Various propositional objects are typically employed for these purposes, including catalogs, records, inventories, databases, and other structured documentation systems that capture, organize, and store information. Additionally, other propositional objects can also serve this purpose, such as artworks, maps, diagrams, personal photograph albums, socially-built archives, etc., although they have not been primarily conceived or designed for this end. Therefore, this class links entities with those propositional objects that document them regardless their nature, genre, or typology.</span>
   </div>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">This class is not disjoint with other dispositif types; see Dispositif modeling note.</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5876,6 +5882,7 @@ This section provides details for each class and property defined by OntoExhibit
   <div class="comment">
    <span class="markdown">The "Expansion Dispositif" class represents propositional objects and activities used to expand the interpretation, readings, understanding, and overall comprehension of cultural activities and productions. These dispositifs include supplementary materials, interactive media, extended narratives, academic publications, discussion forums, and other materials and activities designed to deepen and broaden the audience's engagement and understanding of the cultural activities and productions. Additionally, other propositional objects and activities can also serve this purpose. Therefore, this class links cultural activities and productions with those propositional objects and activities that expand their understanding and interpretations, regardless of their nature, genre, or typology.</span>
   </div>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">This class is not disjoint with other dispositif types; see Dispositif modeling note.</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6210,8 +6217,9 @@ This section provides details for each class and property defined by OntoExhibit
   <h3>information object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Information_Object</p>
   <div class="comment">
-   <span class="markdown">Modeling note: Informational Object is used to assert an informational reading of an entity (it is treated as an information-bearing vehicle). This typing is not exclusive: the same entity may also be typed under other classes when a different modeling commitment is intended (e.g., when it is modeled as a publishable/citable manifestation). In ambiguous cases such as catalogs and databases, use Informational Object for their informational function, and add the additional typing only when the modeling explicitly addresses publication framing (edition/release/versioning), circulation, and reception.</span>
+   <span class="markdown">The "Informational Object" class represents entities that primarily consist of data or information, designed to convey knowledge, facts, instructions, or messages. Informational Objects can include documents, digital files, databases, manuals, maps, and other forms of recorded information. They serve as vehicles for the storage, transmission, and presentation of knowledge across various mediums and formats. This class is not equivalent to the E73 Information Object class of the CIDOC-CRM model, as in this reference model, this class is considered a subclass of Conceptual Object, thereby ignoring their material conditions.</span>
   </div>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">Informational Object is used to assert an informational reading of an entity (it is treated as an information-bearing vehicle). This typing is not exclusive: the same entity may also be typed under other classes when a different modeling commitment is intended (e.g., when it is modeled as a publishable/citable manifestation). In ambiguous cases such as catalogs and databases, use Informational Object for their informational function, and add the additional typing only when the modeling explicitly addresses publication framing (edition/release/versioning), circulation, and reception.</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6674,6 +6682,7 @@ This section provides details for each class and property defined by OntoExhibit
   <div class="comment">
    <span class="markdown">The "Mediation Dispositif" class represents propositional objects and activities used to facilitate the interpretation, understanding, and engagement with cultural activities and productions. These dispositifs typically include educational materials, guided tours, interactive displays, workshops, and other structured systems or tools that mediate the relationship between the audience and the cultural activity and production. Additionally, other propositional objects and activities can also serve this purpose. Therefore, this class links cultural activities and productions with those propositional objects and activities that mediate with the audience, regardless of their nature, genre, or typology.</span>
   </div>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">This class is not disjoint with other dispositif types; see Dispositif modeling note.</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7694,6 +7703,7 @@ This section provides details for each class and property defined by OntoExhibit
   <div class="comment">
    <span class="markdown">This class refers to a semantic, intellectual, or conceptual element that articulates specific ideas. It can take the form of assertions, theses, hypotheses, arguments, interpretations, among others. Propositions are inherently part of "propositional entities." They can be developed through “conceptual works”, conveyed and embodied in propositional objects, and assigned to any entity.</span>
   </div>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">Proposition is propositional content. It is related to conceptual objects  via conveys and for propositional objects via embodies.</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7781,6 +7791,7 @@ This section provides details for each class and property defined by OntoExhibit
   <div class="comment">
    <span class="markdown">The "Propositional Entity" class represents any entity, whether conceptual, material, or activity-based, that conveys, embodies, or entails some form of proposition. This proposition can be intentional and explicit or implicit. Propositional Entities encompass a wide range of forms, including artworks, exhibitions, catalogs, literary works, scholarly works, performances, lectures, conferences, and other entities that communicate or represent specific meanings, concepts, or messages. These entities are characterized by their capacity to convey and embody propositional content, which may involve thesis, hypotheses, interpretations, critical discussions, etc.</span>
   </div>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">Propositional_Entity is used as a transversal category for entities that bear one or more propositions as their propositional content. It does not introduce a separate “kind” of thing, but marks a shared capacity across different branches of the ontology (e.g., conceptual works, preliminary ideas, propositional objects, or planned activities) to be related to Proposition.</div>
   <dl class="description">
    <dt>
     has sub-classes
@@ -8261,6 +8272,7 @@ This section provides details for each class and property defined by OntoExhibit
   <div class="comment">
    <span class="markdown">Represents any virtual or digital environment that is created, enhanced, or enabled through technological means. In OntoExhibit, the techno-place class is a comprehensive class that comprises the variety of digital and/or technological spaces where the digital and/or computational activities of agents within the art exhibition domain are carried out.</span>
   </div>
+  <div class="modeling-note-title">modeling note</div><div class="modeling-note-body">Techno-Place is treated as a computational object and therefore as a propositional object: its design, data models, rules, affordances, and governance embed explicit or implicit propositions that shape what can appear, circulate, and be accessed. Its affiliation to Place expresses a facet of use and reference—how it functions as a locus for exhibition-related interactions and processes—without denying its objecthood or its propositional character. This enables research questions such as:  “What implicit propositions about audiences/participation are embedded in the platform used by exhibition X?” or “How do the propositions of two techno-places differ in their navigation design, permissions, and visibility regimes?”</div>
   <dl class="description">
    <dt>
     has super-classes
@@ -20250,5 +20262,5 @@ The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Pero
 
 
 </div>
-<script>document.addEventListener("DOMContentLoaded", function() { document.querySelectorAll("dt").forEach(function(dt) { var t = dt.textContent.trim().toLowerCase(); if (t === "nota de modelado" || t === "modeling note") { dt.classList.add("modeling-note-title"); var dd = dt.nextElementSibling; if (dd </body></body> dd.tagName === "DD") { dd.classList.add("modeling-note-body"); } } }); });</script></body>
+</body>
 </html>
