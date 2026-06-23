@@ -2,16 +2,8 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<https://w3id.org/OntoExhibit/1.1.0> a prov:Entity;
+<..\index-en.html> a prov:Entity;
 	 dc:title "OntoExhibit";
-	 prov:wasAttributedTo <https://github.com/MartinM10>;
-	 dc:creator <https://github.com/MartinM10>;
-	 prov:wasAttributedTo :agent0;
-	 prov:wasAttributedTo :agent1;
-	 prov:wasAttributedTo :agent2;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
-	 prov:wasGeneratedAt "2022-11";
+	 prov:wasGeneratedAt "Date created";
 .
-:agent0 a prov:Agent; foaf:name "Maria del Mar Roldán García".
-:agent1 a prov:Agent; foaf:name "María Luisa Díez Platas".
-:agent2 a prov:Agent; foaf:name "Nuria Rodriguez Ortega".
