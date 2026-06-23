@@ -46,7 +46,7 @@ jobs:
         run: |
           find docs -name "*.html" -exec sed -i -E 's/width="50\/?\/*"/width="200"/g' {} +
           find docs -name "*.html" -exec sed -i 's|</head>|<style>.modeling-note-title { background-color: #f8f9fa; border-left: 4px solid #17a2b8; padding: 5px 10px; margin-top: 15px; font-weight: bold; color: #17a2b8; display: inline-block; border-radius: 4px 4px 0 0; } .modeling-note-body { background-color: #f8f9fa; border-left: 4px solid #17a2b8; padding: 10px 15px; margin-bottom: 15px; font-style: italic; color: #495057; border-radius: 0 4px 4px 4px; }</style></head>|g' {} +
-          find docs -name "*.html" -exec sed -i 's|</body>|<script>document.addEventListener("DOMContentLoaded", function() { document.querySelectorAll("dt").forEach(function(dt) { var t = dt.textContent.trim().toLowerCase(); if (t === "nota de modelado" || t === "modeling note") { dt.classList.add("modeling-note-title"); var dd = dt.nextElementSibling; if (dd && dd.tagName === "DD") { dd.classList.add("modeling-note-body"); } } }); });</script></body>|g' {} +
+          find docs -name "*.html" -exec sed -i 's~</body>~<script>document.addEventListener("DOMContentLoaded", function() { document.querySelectorAll("dt").forEach(function(dt) { var t = dt.textContent.trim().toLowerCase(); if (t === "nota de modelado" || t === "modeling note") { dt.classList.add("modeling-note-title"); var dd = dt.nextElementSibling; if (dd && dd.tagName === "DD") { dd.classList.add("modeling-note-body"); } } }); });</script></body>~g' {} +
 
       - name: Deploy Premium Landing Page
         run: |
