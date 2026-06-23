@@ -1094,7 +1094,7 @@
 }, {
   "@id" : "http://www.cidoc-crm.org/cidoc-crm/E7_Activity#process",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Process comprises transformative activities—coherent sequences of actions or operations—carried out by one or more actants, typically exhibiting an internal structure (e.g., phases, tasks, iterations) and an appreciable duration. A process mobilizes resources, techniques, and collaborations toward an intended purpose, producing state changes and potentially generating material or conceptual outcomes."
   } ],
@@ -1151,7 +1151,7 @@
 }, {
   "@id" : "https://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Production\" class represents the activities involved in the creation and fabrication of material objects."
   } ],
@@ -1168,7 +1168,7 @@
 }, {
   "@id" : "https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises real individual human beings who live or are assumed to have lived."
   } ],
@@ -1189,7 +1189,7 @@
 }, {
   "@id" : "https://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises purely conceptual and/or intellectual entities without concrete materialization. They constitute results derived from human intellectual and creative activity, with or without the assistance of non-human agencies."
   } ],
@@ -1206,7 +1206,7 @@
 }, {
   "@id" : "https://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises any occurrence or happening that involves a change or a series of change over time. It encompasses specific and goal-oriented processes, such as creative and productive activities, that result in particular conceptual or material outcomes, and broader, organized and planned endeavors, such as exhibitions or conferences.  They are characterized by their temporal and spatial dimensions."
   } ],
@@ -1253,7 +1253,7 @@
 }, {
   "@id" : "https://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class refers to the process or act of bringing an object (conceptual or material) into existence."
   } ],
@@ -1290,7 +1290,7 @@
 }, {
   "@id" : "https://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Dissolution\" class represents the process and act of formally disbanding or terminating groups, institutions, organizations, or other entities."
   } ],
@@ -1329,7 +1329,7 @@
 }, {
   "@id" : "https://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Destruction\" class represents the process and act of causing material objects to become damaged, dismantled, or rendered unusable. This includes any activities that lead to the degradation, disintegration, or obliteration of objects, whether intentional or accidental. The Destruction class is crucial for documenting and understanding the loss or alteration of material objects within various contexts, such as art conservation, historical documentation, and cultural heritage preservation."
   } ],
@@ -1348,7 +1348,7 @@
 }, {
   "@id" : "https://cidoc-crm.org/cidoc-crm/7.1.1/E74_Group",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises human actors organized into groups, such as artist groups, who act collectively in their roles or activities within the art exhibition domain, but does not necessarily have a legal or corporate structure. This class has a different scope from the CIDOC-CRM E74 Group class, which also includes institutions. In the context of the OntoExhibit ontology, institutions constitute a distinct class as they are recognized to have a legal personality different from that of groups, with a more complex and formal structure, and specific functions that are regulated and acknowledged by society. See the “Institution” class as a subclass of “Corporate Body”."
   } ],
@@ -1369,11 +1369,10 @@
 }, {
   "@id" : "https://cidoc-crm.org/cidoc-crm/7.1.1/Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Place represents any spatial or locative context in which events, practices, or cultural processes are situated. It covers a broad spectrum of locations, ranging from geopolitical entities (e.g., countries, regions, cities) and built environments (e.g., buildings, rooms, exhibition halls) to techno-digital environments (e.g., online platforms, virtual spaces, networked interfaces). The class is intended to support the description of the multiple spatial conditions under which art is produced, curated, mediated, displayed, and experienced. Place is broader than CIDOC CRM’s E53 Place, which is restricted to physical space. OntoExhibit maintains compatibility with CRM by allowing physical places to align with E53 where appropriate, while also accommodating techno-digital places that fall outside CRM’s strictly physical scope."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+  }, {
     "@language" : "en",
     "@value" : "Within OntoExhibit, Place functions as a general umbrella category that supports more specific, role-oriented subclasses. In particular, Site captures places in their capacity as exhibition venues (i.e., where an exhibition is presented to audiences), while Process_Locus captures places in their capacity as loci of cultural processes (e.g., where conception, curation, creation, foundation, dissolution, or destruction are situated). A given place may play none, one, or multiple such roles depending on the relationships asserted in the knowledge graph; therefore, these subclasses should not be read as fixed “types of place,” but as analytically meaningful contextualizations of place within exhibition ecosystems."
   } ],
@@ -1516,7 +1515,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Actant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises entities that engage in a role or perform specific activities, either on their own initiative or mobilized by other entities. In the context of the OntoExhibit ontology, it refers to those entities that play an active role in the art exhibition domain. This class is broader than the CIDOC-CRM E39 Actor class, which is limited to human entities. Additionally, the decision to use the term \"actant\" over the more conventional term \"actor\" stems from the Greimasian tradition, where the condition of being an actant is determined by the specific role or function that an entity performs. In contrast, the term \"actor,\" as currently associated with the concept of actor in Bruno Latour's actor-network theory, is defined by its capacity to exert agency. Acknowledging that any entity might possess agency within a specific context or time, the class labeled as “actor” would be all-encompassing, including all classes. Conversely, designating a distinct class as \"actor\" would restrict agency value to those classes classified as subclasses of actor."
   } ],
@@ -1534,7 +1533,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises specific, goal-oriented actions and operations carried out by a single agent or a collective. Activities are concrete, distinguishable events situated in a spatio-temporal context, typically involving coordination, resources, and participation. They may lead to material or conceptual outcomes, and include both transformative processes (e.g., creation, production, curation) and planned or programmed activities (e.g., concerts, lectures, openings)."
   } ],
@@ -1551,7 +1550,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Activity_Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Place of Activity is an intermediary (reified) spatio-temporal context that links a human actant (or collective) to one or more places in which they carry out professional activities during a defined time range. It is intended to capture activity geographies that may be distributed across multiple locations rather than reducible to a single, fixed base. For example, an art gallery may operate through branches, fairs, collaborations, or recurring programs in several cities beyond the city where its main office is located.\n\nIn OntoExhibit, Place of Activity supports the analysis of dispersed cultural work and the spatial dynamics of professional trajectories. The set of places connected to an actant through successive or concurrent instances of Place of Activity constitutes the actant’s broader area of activity, enabling comparative study of mobility, networked operations, and the territorial and techno-digital reach of actors within exhibition ecosystems."
   } ],
@@ -1581,7 +1580,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Affiliation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Affiliation is an intermediary (reified) spatio-temporal context that records a formal staff relationship between an individual and an organisation. It captures cases in which a person is affiliated with an institution through employment or an equivalent contractual arrangement, performing defined roles and responsibilities within the organisation during a specific time range (and, where relevant, under particular terms or statuses).\n\nIn OntoExhibit, Affiliation supports the analysis of institutional labour and professional trajectories by making staff relationships explicit, time-qualified, and queryable, without reducing them to a timeless link between a person and an organisation."
   } ],
@@ -1628,7 +1627,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Approximate_Date",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Approximate Date\" class represents a point in time that is not defined with precise accuracy but is estimated to fall within a certain range. This includes dates that are roughly known, such as an approximate year, month, or day, and can be used when exact dates are not available or necessary. Approximate Dates are useful for historical research, planning, and scenarios where only an estimated timeframe is required."
   } ],
@@ -1660,7 +1659,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Architectural_Work_Manifestation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Architectural Work Manifestation\" class represents the tangible manifestation of an architectural project."
   } ],
@@ -1703,7 +1702,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Art_Competition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Art Competition\" class represents an organized event where participants submit their artworks to be evaluated and judged, with the goal of winning prizes or recognition.  These events also serve to showcase artworks to the public in a competitive context."
   } ],
@@ -1735,7 +1734,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Art_Exhibition_Digital_Platform",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "Plataforma para exposiciones"
   }, {
@@ -1768,7 +1767,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Artists_Group",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A group of individuals who collaborate or associate under a common name or collective identity with the purpose of creating, exploring, or exhibiting art."
   } ],
@@ -1798,7 +1797,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Assement_Assignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Assessment Assignment\" class represents the act or process of evaluating, appraising, or judging the quality, value, or significance of an entity or work. Assessment Assignments can be applied to artworks, projects, performances, or any other entities that require formal evaluation."
   } ],
@@ -1815,7 +1814,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Assessment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An evaluative proposition expressing a judgment (explicit or implicit) according to criteria or standards, potentially including gradations, comparisons, or attributions of quality/fitness."
   } ],
@@ -1832,7 +1831,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Assignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Assignment\" class represents the action of assigning attributes, propositions, statements, evaluations, critical assessment, interpretations, or similar elements to entities. This action involves linking specific descriptive, interpretative or evaluative contents to artworks, exhibitions, cultural creations and events, or any relevant subjects within the domain. The Assignment class is essential for providing additional context, meaning, or evaluation to entities, thereby enhancing understanding, interpretation, and scholarly analysis."
   } ],
@@ -1893,7 +1892,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Auction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Auction\" class represents a type of \"Exhibitionary Event\" where artworks, artifacts, or other items are presented for sale to the highest bidder. Auctions are typically organized by auction houses, galleries, or other entities, and they attract collectors, dealers, and the general public."
   } ],
@@ -1923,7 +1922,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Author",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Author\" class represents individuals or entities responsible for the creation and conceptualization within art exhibitions. This includes not only the creators of the exhibited works, such as visual artists, sculptors, painters, photographers, and multimedia artists, but also those involved in the conceptualization of the exhibition itself, the design of the museographic elements, and other creative and productive contributions that shape the overall experience of the exhibition."
   } ],
@@ -1940,7 +1939,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Beginning_Of_Activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Beginning of Activity\" class represents the initial actions or events that mark the commencement of a larger activity or event. This includes ceremonies, inaugural speeches, opening performances, or any other activities that signify the start of an event or activity."
   } ],
@@ -1957,7 +1956,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Biennial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Biennial\" class represents a large-scale exhibition event that occurs every two years, showcasing a curated selection of artworks, often from a diverse range of artists, disciplines, and cultural backgrounds. Biennials are significant events in the art world, designed to present cutting-edge contemporary art, foster international cultural exchange, and engage with global artistic trends. These events typically span several months and include various programs such as exhibitions, performances, panel discussions, workshops, and educational activities."
   } ],
@@ -1974,7 +1973,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Biological_Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "A biological event refers to any significant occurrence or process within a biological system that results in a change or development in the organism, population, or ecosystem."
   } ],
@@ -1991,7 +1990,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Biological_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Biological Object\" class represents entities derived from living organisms, including plants, animals, fungi, and microorganisms. These objects are naturally occurring and can be displayed in art exhibitions for their scientific, educational, aesthetic, or cultural significance. Biological Objects may include specimens, preserved samples, live organisms, or parts of organisms (such as leaves, bones, shells, or feathers) and can be integral components of artworks or installations, providing a unique intersection between art and nature."
   } ],
@@ -2116,7 +2115,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Collective_Human_Actant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A group of individuals who act together as a collective entity to influence, participate in, or intervene in specific processes or situations. This collective may be formal, such as institutions or professional associations, or informal, such as social communities or an interest group."
   } ],
@@ -2146,7 +2145,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Comment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A proposition formulated as a comment: a brief, situated—often reactive—statement expressing an observation, evaluation, interpretation, agreement/disagreement, or qualification regarding an entity or situation in the exhibition ecosystem. It is distinct from any specific materialization or carrier (e.g., post, note, or form entry), which is modeled elsewhere."
   } ],
@@ -2176,7 +2175,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Communication_Activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Communication Activity\" class represents any activity aimed at conveying information, promoting events, engaging with audiences, or facilitating interaction and dialogue. This includes a wide range of activities such as public relations campaigns, social media interactions, press releases, newsletters, and other forms of communication that support the dissemination and reception of information related to art exhibitions and cultural events."
   } ],
@@ -2193,7 +2192,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Communication_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Communication Dispositif\" class represents materials and events used to communicate and disseminate information about cultural activities and productions. These dispositifs typically include press releases, brochures, websites, social media posts, newsletters, and other structured systems or media that convey information to the public and stakeholders. Additionally, other objects and materials can also serve this purpose. Therefore, this class links cultural activities and productions with those propositional objects and events that inform about them, regardless of their nature, genre, or typology."
   } ],
@@ -2214,7 +2213,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Communities",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A group of individuals who interact informally moved by shared interests. In the context of the OntoExhibit ontology, this class specifically refers to communities that interact on social media platforms, such as Twitter, Facebook, Discord, etc. This class would include, for example, instances of DAOs (decentralized autonomous organizations)."
   } ],
@@ -2231,7 +2230,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Company",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A legal entity established with the goal of obtaining economic benefits. In the context of the OntoExhibit ontology, this class specifically refers to those entities dedicated to the sale, distribution, or promotion of products and services related to art. This may include commercial galleries, art consultancy firms, art supply companies, among others. It also refers to those entities not directly related to the art field, but that can act as promoters or financiers in certain exhibition projects. This class also includes those entities that play a significant role in the field of art criticism, the production/publication of curatorial texts, and, in general, cultural, intellectual, or artistic productions related to art exhibitions."
   } ],
@@ -2261,7 +2260,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Computational_Development",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Computational Development\" class represents the activities and processes involved in creating, designing, and implementing computational systems, software, and algorithms. This includes the development of digital tools, applications, interactive systems, and computational models that support various domains such as art, science, engineering, and education. Computational Development encompasses tasks such as coding, software engineering, system architecture, algorithm design, and testing, aimed at producing functional and innovative technological solutions."
   } ],
@@ -2278,13 +2277,12 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Computational_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
-    "@language" : "en",
-    "@value" : "The \"Computational Object\" class represents entities created with computational languages, and processed or existing within computational systems. These objects include software, algorithms, simulations, virtual environments, AI systems, and other digital productions. Computational Objects are characterized by their creation, manipulation, and existence within digital or computational frameworks, and they play a crucial role in digital art, generative curation, and digital exhibitions. Nevertheless, this class should not be confused with artworks, cultural objects, or other work manifestations that materialize in digital format."
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Computational objects are treated as propositional objects because their design, modelling and production embed explicit or implicit propositions (e.g., data models, rules, constraints, affordances, policies, and algorithmic logics). This propositional character holds even when such objects also function under other facets (e.g., place or actant)."
+  }, {
+    "@language" : "en",
+    "@value" : "The \"Computational Object\" class represents entities created with computational languages, and processed or existing within computational systems. These objects include software, algorithms, simulations, virtual environments, AI systems, and other digital productions. Computational Objects are characterized by their creation, manipulation, and existence within digital or computational frameworks, and they play a crucial role in digital art, generative curation, and digital exhibitions. Nevertheless, this class should not be confused with artworks, cultural objects, or other work manifestations that materialize in digital format."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2301,7 +2299,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Concept",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A fundamental unit that represents an abstract idea, entity, or category that encapsulates the essential characteristics and properties of an object, event, or phenomenon."
   } ],
@@ -2322,7 +2320,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Conception",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Conception\" refers to the specific activity involved in the conceptualization of abstract, non-material objects. This class encompasses the intellectual processes and creative thinking required to develop ideas, theories, frameworks, and other intangible constructs. \"Conception\" includes activities such as brainstorming, theorizing, imagining, planning, and designing conceptual entities. It is characterized by the formulation of novel concepts, models, or solutions that exist primarily in the cognitive realm, rather than having a physical form."
   } ],
@@ -2339,7 +2337,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Conceptual_Work",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The intellectual and conceptual formulation of a work conceived as a coherent and unitary entity in itself. It is potentially susceptible to being realized in various expressions and/or manifestations."
   } ],
@@ -2374,7 +2372,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Conmemorative_Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Commemorative Event\" class represents a significant occasion organized to honor, remember, or celebrate an important person, event, or milestone, such as the fiftieth anniversary of Picasso's death. A Commemorative Event can encompass a variety of activities and sub-events, including exhibitions, lectures, performances, and ceremonies."
   } ],
@@ -2419,7 +2417,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Corporate_Body_Unit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A functional unit within a corporate organization that specializes in specific tasks or functions, forming part of the corporation's overall structure. This unit may be a department, a division, or any other segment that has defined roles and responsibilities within the corporation. This class may include instances such as: Departamento de Pintura of the Museo del Prado or Vicerrectorado de Cultural of the Universidad de Málaga."
   } ],
@@ -2495,7 +2493,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Cultural_Institution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises institutions whose main role is the preservation, research, communication and exhibition of cultural productions, such as museums, art centers, foundations, libraries, and other cultural organizations."
   } ],
@@ -2512,7 +2510,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Cultural_Work_Manifestation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Cultural Work Manifestation\" class represents cultural objects and productions that fall outside the traditional Western concept of \"artistic\" objects. This class encompasses a wide range of cultural works that are significant in their own right but do not fit the specific connotations and constructions associated with the Western concept of art. Examples include traditional crafts, indigenous artifacts, cultural rituals, folkloric expressions, community-based creations, and other forms of cultural manifestations. The purpose of this class is to provide a more inclusive framework for classifying and understanding cultural productions that cannot be categorized as \"artworks\" within the Western paradigm."
   } ],
@@ -2529,7 +2527,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Curation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Curation\" class represents the process and practice of selecting, organizing, and presenting artworks and other cultural and material objects within an art exhibition. This includes all activities related to the conceptual aspects of creating a cohesive and meaningful exhibition, such as research, selection of works, thematic development, arrangement of artworks, and interpretative content."
   } ],
@@ -2548,7 +2546,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Curator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Curator\" class represents individuals or entities responsible for the conceptualization of exhibition-curatorial projects. Curators play a crucial role in the selection of exhibition themes, development of curatorial discourse, selection of exhibitors and works, and interpretation of cultural objects. Curators may work independently or as part of a team within museums, galleries, or other cultural institutions."
   } ],
@@ -2567,7 +2565,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Curatorial_Discourse",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class refers to the narrative, critical thinking, and conceptual framework developed by curators to guide the creation, organization, and interpretation of an exhibition. This discourse encompasses the thematic, theoretical, and contextual elements that shape the presentation and understanding of the artworks or artifacts on display."
   } ],
@@ -2584,7 +2582,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Curatorial_Proposal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Curatorial Proposal designates a propositional entity that sets out a curatorial project in a preliminary, projective form. It articulates the intended concept, scope, rationale, and curatorial approach—often including aims, selection principles, thematic lines, key references, and practical constraints—so that the project can be discussed, evaluated, negotiated, or commissioned prior to its realization."
   } ],
@@ -2603,7 +2601,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Curatorial_Work",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class refers to the comprehensive conceptualization, planning, and organization of a cultural activity and production based on selection processes and narrative building. This project encompasses various actions and processes, including the conceptualization of the curatorial discourse and narrative to be unfolded, the selection of activities to be carried out or material objects to be displayed or recorded, coordination with participants, the design of the associated place (digital and/or physical), and the development of interpretative content."
   } ],
@@ -2641,7 +2639,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Date",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Temporal unit that does not imply duration. This class represents a specific point in time identified by a day, usually recorded as year, month, and day."
   } ],
@@ -2697,7 +2695,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Digital_Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprehends a variety of digital environments such as digital platforms, websites, virtual reality (VR) environments, augmented reality (AR) spaces, and other online interfaces where technology facilitates interaction or presentation. In OntoExhibit, “digital places” also represent the digital environments where digital cultural activities, included digital exhibitions, take place. “Digital Places” may act as “Digital Sites”."
   } ],
@@ -2714,7 +2712,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Digital_Platform",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Digital Platform\" class represents large-scale technological infrastructures designed to host, manage, and support extensive digital interactions and activities. These platforms provide the backbone for a wide range of digital services and applications, facilitating complex operations and high-volume user engagement. Digital Platforms include large-scale social media networks, comprehensive cloud computing services, extensive content distribution networks, and other robust digital infrastructures that go beyond specific websites. In the art exhibitions domain, an example of a digital platform could be Europeana, which features a dedicated section for the presentation of digital exhibitions."
   } ],
@@ -2731,7 +2729,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Digital_Site",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Digital Site\" class represents specific, smaller-scale digital locations that are part of larger digital environments or platforms. These sites include individual web pages, subdomains, sections of websites, or specific interactive components within a broader digital platform. “Digital Sites” serve focused purposes within their larger digital contexts, such as hosting specific content -including digital exhibitions-, and facilitating targeted interactions, or providing specialized services."
   } ],
@@ -2764,7 +2762,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Discourse",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An articulated set of propositions that constitutes a discursive framework (conceptual, narrative, or argumentative) through which a phenomenon in the exhibition ecosystem is defined, justified, or interpreted."
   } ],
@@ -2781,7 +2779,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "In OntoExhibit, the \"Dispositif\" class represents a category that encompasses entities functioning as elements for documenting exhibitions, communicating information about them, facilitating their understanding, expanding their ideas, and more. This class includes various types of dispositifs such as documentation tools, communication materials, mediation activities, interpretative aids, and expansion apparatuses. A dispositif serves to enhance engagement, comprehension, expansion, and dissemination of knowledge related to exhibitions, making it a crucial component in the art exhibition domain’s discursive and social practices. Although in OntoExhibit this class is specifically designed to codify information about exhibitions, it can also be applied to other events and objects."
   } ],
@@ -2799,7 +2797,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Documentation_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Documentation Dispositif\" class represents propositional objects used to document or register information, data, evidences, features, etc. with the aim of recording and preserving information about something. Classes that are susceptible to be documented are events, material objects, conceptual works, and places. Various propositional objects are typically employed for these purposes, including catalogs, records, inventories, databases, and other structured documentation systems that capture, organize, and store information. Additionally, other propositional objects can also serve this purpose, such as artworks, maps, diagrams, personal photograph albums, socially-built archives, etc., although they have not been primarily conceived or designed for this end. Therefore, this class links entities with those propositional objects that document them regardless their nature, genre, or typology."
   } ],
@@ -2833,7 +2831,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Educational_Institution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises institutions whose main role is the education but that play a significant role in the art exhibition domain promoting, organizing or funding exhibitions."
   } ],
@@ -2850,7 +2848,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Emotional_Reaction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Emotional Reaction\" class represents the emotional responses elicited by artworks, exhibitions, events, or cultural entities. This includes the range of emotions experienced by individuals, such as joy, sadness, anger, surprise, and awe, in response to artistic and cultural stimuli. Emotional Reactions are important for understanding the affective impact of cultural content on audiences and can provide valuable insights into audience engagement and reception."
   } ],
@@ -2867,7 +2865,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#End_Of_Activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"End of Activity\" class represents the concluding actions or events that mark the termination of a larger activity or event. This includes closing ceremonies, final speeches, concluding performances, or any other activities that signify the end of an event or activity."
   } ],
@@ -2884,7 +2882,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Exact_Date",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Exact Date\" class represents a specific point in time, defined with precision by a particular calendar date."
   } ],
@@ -2901,7 +2899,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Executive_Position",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Executive Position is an intermediary (reified) spatio-temporal context that models the formal appointment through which an individual holds a leadership role within an organisation. It captures the fact that executive authority is institutionally defined and time-bound, enabling the association of a person, an organisation, and the relevant role or office with a specific time range (and, where applicable, with additional qualifiers such as mandate type, status, or scope of responsibility).\n\nIn OntoExhibit, Executive Position covers cases in which an individual—such as a company CEO, the president of a professional association, or a museum director—embodies organisational authority and is accountable for strategic direction, decision-making, and institutional representation (including speaking on behalf of the organisation). By modelling these relations explicitly, the class supports the analysis of governance structures, institutional trajectories, and leadership networks within exhibition ecosystems."
   } ],
@@ -2918,7 +2916,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Exhibition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Exhibition\" class represents a curated display of artworks, artifacts, or cultural items presented to the public in a specific venue, such as a museum, gallery, or cultural center. Exhibitions are organized to showcase collections, promote artistic expression, educate audiences, and engage the public with cultural heritage."
   } ],
@@ -2943,7 +2941,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Exhibition_Curatorial_Project",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class refers to the comprehensive conceptualization, planning, and organization of an art exhibition. This project encompasses various activities, including the conceptualization of the curatorial discourse, the selection of works to be displayed, the coordination with artists, the design and layout of the exhibition space, the development of interpretative content, and the formulation of audience engagement strategies."
   } ],
@@ -2962,7 +2960,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Exhibition_Idea",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Exhibition Idea designates a preliminary propositional entity expressing an initial concept for an exhibition. It typically outlines a core intuition—such as a theme, question, or curatorial premise—and may include early indications of scope, potential works or materials, and intended modes of presentation. It functions as an early-stage articulation that can be developed into a curatorial proposal, refined through research and discussion, or abandoned."
   } ],
@@ -2981,7 +2979,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Exhibition_Making",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Exhibition Making\" class represents the comprehensive set of activities aimed at the effective production of an art exhibition. This encompasses the materialization of a curatorial and exhibition project, including the planning, coordination, and execution of all tasks necessary to bring the exhibition to life. Activities within Exhibition Making involve collaboration between curators, artists, designers, museographers, experts in visual branding, and other stakeholders to ensure the successful realization of the exhibition's vision."
   } ],
@@ -3000,7 +2998,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Exhibitionary_Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Exhibitionary Event\" class represents any event specifically organized to showcase artworks, artifacts, or cultural items to the public. These events can include art exhibitions, gallery openings, art fairs, and other similar occasions where the primary focus is the presentation and viewing of curated collections."
   } ],
@@ -3030,7 +3028,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Expansion_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Expansion Dispositif\" class represents propositional objects and activities used to expand the interpretation, readings, understanding, and overall comprehension of cultural activities and productions. These dispositifs include supplementary materials, interactive media, extended narratives, academic publications, discussion forums, and other materials and activities designed to deepen and broaden the audience's engagement and understanding of the cultural activities and productions. Additionally, other propositional objects and activities can also serve this purpose. Therefore, this class links cultural activities and productions with those propositional objects and activities that expand their understanding and interpretations, regardless of their nature, genre, or typology."
   } ],
@@ -3051,7 +3049,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Fair",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Art Fair\" class represents a type of \"Exhibitionary Event\" that brings together multiple galleries, artists, and exhibitors to showcase and sell artworks in a single venue. Art fairs are typically large-scale events that attract collectors, critics, curators, and the general public. These events often include a variety of programs such as exhibitions, talks, panel discussions, and performances, providing a dynamic platform for the art market and fostering cultural exchange."
   } ],
@@ -3098,7 +3096,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Foundation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Foundation\" class represents the act of establishing institutions, organizations, groups, or other entities. In the context of art and cultural heritage, this includes the creation of museums, galleries, art collectives, cultural institutions, and similar entities. The foundation process involves legal, administrative, and/or organizational activities necessary to formally create and sustain these entities, ensuring they can operate and achieve their missions."
   } ],
@@ -3158,7 +3156,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Gallery",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An organizational entity dedicated to exhibiting and marketing works of art. Art galleries play a crucial role in the art ecosystem, acting as intermediaries between artists and the public, and often contribute to the development of artistic careers and the fostering of contemporary art trends."
   } ],
@@ -3175,7 +3173,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Government_Organization",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class represents organizations that are part of the public sector and are responsible for implementing government policies, providing public services, and managing public resources. This class includes entities such as municipalities, ministries, regional governments, and other governmental bodies."
   } ],
@@ -3244,7 +3242,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Human_Actant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises actants that are human beings."
   } ],
@@ -3303,13 +3301,12 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Information_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
-    "@language" : "en",
-    "@value" : "The \"Informational Object\" class represents entities that primarily consist of data or information, designed to convey knowledge, facts, instructions, or messages. Informational Objects can include documents, digital files, databases, manuals, maps, and other forms of recorded information. They serve as vehicles for the storage, transmission, and presentation of knowledge across various mediums and formats. This class is not equivalent to the E73 Information Object class of the CIDOC-CRM model, as in this reference model, this class is considered a subclass of Conceptual Object, thereby ignoring their material conditions."
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Modeling note: Informational Object is used to assert an informational reading of an entity (it is treated as an information-bearing vehicle). This typing is not exclusive: the same entity may also be typed under other classes when a different modeling commitment is intended (e.g., when it is modeled as a publishable/citable manifestation). In ambiguous cases such as catalogs and databases, use Informational Object for their informational function, and add the additional typing only when the modeling explicitly addresses publication framing (edition/release/versioning), circulation, and reception."
+  }, {
+    "@language" : "en",
+    "@value" : "The \"Informational Object\" class represents entities that primarily consist of data or information, designed to convey knowledge, facts, instructions, or messages. Informational Objects can include documents, digital files, databases, manuals, maps, and other forms of recorded information. They serve as vehicles for the storage, transmission, and presentation of knowledge across various mediums and formats. This class is not equivalent to the E73 Information Object class of the CIDOC-CRM model, as in this reference model, this class is considered a subclass of Conceptual Object, thereby ignoring their material conditions."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -3324,7 +3321,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Institution",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises non-profit corporate bodies. In the context of the OntoExhibit ontology, it refers those institutions that play a significant role in the art exhibition domain in its multiple dimensions. Instances of this class are Museo del Prado, Google Art and Culture, Europeana, Library of Congress, etc."
   } ],
@@ -3341,7 +3338,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Institutional_Communication_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Institutional Communication Dispositif\" class represents official materials and events used by institutions to communicate and disseminate information about cultural activities and productions. These dispositifs function as authoritative sources of information, providing legitimacy and formal recognition to the messages conveyed. Examples include institutional press releases, official brochures, institutional websites, social media channels managed by the institution, newsletters, and other structured communication systems."
   } ],
@@ -3358,7 +3355,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Institutional_Documentation_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Institutional Documentation Dispositif\" class represents official documentation tools and mechanisms used by institutions to record, organize, and legitimize information about events, activities, and objects. These dispositifs function as authoritative sources of information, providing legitimacy and formal recognition to the documented entities. Examples include official records, registries, institutional databases, and certified archival materials. The institutional nature of these dispositifs underscores their role in establishing and maintaining authoritative narratives and histories within the institutional framework."
   } ],
@@ -3375,7 +3372,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Institutional_Expansion_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Institutional Expansion Dispositif\" class represents official materials and activities used by institutions to expand the interpretations, readings, discourses, ideas, and understanding of cultural events and objects. These dispositifs function as authoritative mechanisms for broadening and deepening the understanding and engagement with cultural content. Examples include institutional publications, official social media campaigns, lectures, academic conferences, and collaborative projects with other cultural or educational institutions. The institutional nature of these dispositifs underscores their role in delivering institutionally legitimized means for enriching and expanding the cultural narrative and intellectual engagement."
   } ],
@@ -3392,7 +3389,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Institutional_Mediation_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Institutional Mediation Dispositif\" class represents official materials and activities used by institutions to facilitate the interpretation, understanding, and engagement with cultural activities and productions. These dispositifs function as authoritative mechanisms for guiding public interaction with cultural content, providing structured and sanctioned methods of mediation. Examples include institutional educational programs, guided tours, official exhibition catalogs, interpretive panels, interactive displays, and workshops organized by the institution. The institutional nature of these dispositifs underscores their role in institutionally approved interpretations and educational content to the public."
   } ],
@@ -3422,7 +3419,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Interpretation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An interpretive proposition: a statement that assigns meaning or a reading to an entity, set, or situation, potentially coexisting with alternative interpretations."
   } ],
@@ -3439,7 +3436,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Interpretation_Assignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Interpretation Assignment\" class represents the act or process of assigning a specific interpretation, meaning, or analysis to an entity or work. This class encompasses various activities involved in the contextualization, explanation, and understanding of an entity's significance, including the assignment of thematic, historical, cultural, or conceptual interpretations. Interpretation Assignments can be applied to artworks, texts, events, or any other entities that require deeper analysis and understanding."
   } ],
@@ -3564,7 +3561,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Location",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Location is an intermediary (reified) spatio-temporal context that links a collective actant (e.g., a group, community, or corporate body) to the place(s) where it is situated during a specific time range. It is designed to represent organisational location as historically variable rather than as a fixed attribute, allowing multiple location records to coexist for the same entity across different periods.\n\nIn OntoExhibit, Location is primarily used to connect collective actants to geographical territories or techno-digital places that function as their institutional points of presence (for example, a headquarters city and an official website or platform). This makes it possible to describe complementary forms of location—physical and techno-digital—without conflating them with broader activity geographies. In contrast to Place of Activity, which captures the distributed set of places where an actant operates professionally, Location captures where an organisation is formally situated in a given period; for individual actants, the analogous biographical construct is Residency."
   } ],
@@ -3596,7 +3593,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Material_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Material Object\" class encompasses entities that have a material existence in the world, either as physical objects or as formal realizations or materializations of ideas, concepts, etc. This class includes both physical and digital entities, as well as entities that exist solely as formal expressions, such as a poem or a melody. Material Objects are characterized by their tangible or representational form, making them accessible to perception, interaction, or representation."
   } ],
@@ -3626,7 +3623,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Mediation_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Mediation Dispositif\" class represents propositional objects and activities used to facilitate the interpretation, understanding, and engagement with cultural activities and productions. These dispositifs typically include educational materials, guided tours, interactive displays, workshops, and other structured systems or tools that mediate the relationship between the audience and the cultural activity and production. Additionally, other propositional objects and activities can also serve this purpose. Therefore, this class links cultural activities and productions with those propositional objects and activities that mediate with the audience, regardless of their nature, genre, or typology."
   } ],
@@ -3673,7 +3670,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Membership",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Membership is an intermediary (reified) spatio-temporal context that models the relationship by which an individual or collective human actant participates as a member of a group or corporate body. It represents membership as historically contingent rather than permanent, allowing the association of the member and the membership organisation with a defined time range and, where relevant, with additional qualifying terms (e.g., type of membership, status, or conditions of participation). In OntoExhibit, Membership supports the analysis of institutional and collective engagement by making membership explicit, queryable, and comparable across different organisations and periods.\n\nThis class is broader than foaf:membershipClass, which constrains membership organisations to instances of foaf:Group. In OntoExhibit, the category of Collective Human Actant encompasses both groups and corporate bodies, and either may function as a membership organisation; Membership therefore provides a more flexible pattern aligned with exhibition ecosystems and their heterogeneous organisational forms."
   } ],
@@ -3759,7 +3756,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Narrative_Structure",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An ordering structure that organizes an intellectual work through discursive and/or narrative segmentation (e.g., chapters, sections, thematic units) and their relations. It frames how propositions are developed, distributed, or accumulated across the work’s parts."
   } ],
@@ -3776,7 +3773,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Narrative_Thematic_Unit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The discursive and/or narrative parts through which an intellectual work is articulated. This is an explicit segmentation that may develop one or more propositions."
   } ],
@@ -3803,7 +3800,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Natural_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Natural Object\" class represents entities that occur naturally in the environment. These objects are not created by humans or technological processes, and include a wide range of naturally occurring materials and formations such as rocks, minerals, plants, fossils, and other elements found in nature. Natural objects can be part of art exhibitions. They may be exhibited for their intrinsic beauty, scientific interest, or cultural significance. Therefore, they can also be integral components of artworks or art installations."
   } ],
@@ -3820,7 +3817,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Non-Institutional_Communication_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Non-Institutional Communication Dispositif\" class represents unofficial materials and events used to communicate and disseminate information about cultural activities and productions. These dispositifs often include contributions from individuals, artists, independent groups, and grassroots organizations. They may reflect personal perspectives or community-driven initiatives. Examples include personal blogs, independent social media posts, artist statements, community newsletters, zines, and other forms of informal communication. The non-institutional nature of these dispositifs underscores their role in offering diverse and decentralized forms of communication within the cultural sector."
   } ],
@@ -3837,7 +3834,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Non-Institutional_Documentation_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Non-Institutional Documentation Dispositif\" class represents unofficial documentation tools and mechanisms used to record and interpret information about events, activities, and objects. These dispositifs often include socially constructed materials, contributions from artists, and other informal or non-official sources. They may reflect personal perspectives, creative interpretations, or community-generated content, providing alternative narratives and insights that complement or challenge institutional records. Examples include personal archives, artist's notebooks, community-led documentation projects, and other forms of grassroots or independent documentation."
   } ],
@@ -3854,7 +3851,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Non-Institutional_Expansion_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Non-Institutional Expansion Dispositif\" class represents informal tools, materials, and activities used to expand the interpretations, readings, discourses, ideas, and understanding of cultural events or objects. These dispositifs are often created and distributed by individuals, artists, independent groups, or grassroots organizations. They provide alternative and diverse methods for broadening and deepening engagement with cultural content, reflecting personal perspectives, creative interpretations, or community-driven initiatives. Examples include independent publications, artist-led discussions, community workshops, blogs, zines, and other informal media. The non-institutional nature of these dispositifs underscores their role in offering varied and decentralized forms of expanding cultural narratives and intellectual engagement."
   } ],
@@ -3871,7 +3868,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Non-Institutional_Mediation_Dispositif",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Non-Institutional Mediation Dispositif\" class represents informal tools, materials, and activities used to facilitate the interpretation, understanding, and engagement with cultural activities and productions. These dispositifs are often created and distributed by individuals, artists, independent groups, or grassroots organizations. They provide alternative and diverse methods of mediation that reflect personal perspectives, creative interpretations, or community-driven initiatives. Examples include artist-led workshops, independent guided tours, personal blogs, community discussion groups, zines, and other forms of informal mediation. The non-institutional nature of these dispositifs underscores their role in offering varied and decentralized forms of mediation that complement or challenge official narratives."
   } ],
@@ -3888,7 +3885,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Non_Human_Actant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A non-human entity that plays an active role in the realm of art exhibitions. This may include biological entities, such as animals and plants, as well as inanimate objects, that actively participate in the creation, interpretation, or presentation of artworks and cultural productions. This class is essential for addressing the participation of non-human entities that affect or contribute to artistic dynamics in significant ways. For example, an installation may include living plants, where their biological processes (such as growth, photosynthesis, and response to light stimuli) are monitored and used to alter other elements of the installation, such as lighting, sounds, or visual projections. Sensors placed on the plants detect changes in their environment (such as humidity, temperature, and light) and these data trigger modifications in the installation, creating an environment that is co-created by the biological activity of the plants. This class does not comprise technological entities which, in the context of the OntoExhibit ontology, are considered to inherently carry a human component in their design, conceptualization, and execution. See “Techno-Actant” class."
   } ],
@@ -3905,7 +3902,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Non_Produced_Material_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The Non-Produced Material Object class represents entities that have a material existence but have not been intentionally created or manufactured. These objects occur naturally or exist independently of production. Non-Produced Material Objects include natural artifacts and biological organisms without deliberate intervention or creation."
   } ],
@@ -3919,7 +3916,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Non_Propositional_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Non-Propositional Object\" class represents material entities that do not primarily serve as realizations of ideas, concepts, or conceptual works. Unlike Propositional Objects, Non-Propositional Objects are not characterized by their semantic nature. Instead, they exist primarily for their physical or digital properties, or utilitarian functions. These objects can include items and devices whose primary significance is not tied to conveying meaning or expressing concepts or ideas."
   } ],
@@ -3946,7 +3943,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Open_Day",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Open Day\" class represents an event where an institution, such as a museum, gallery, or cultural organization, opens its doors to the public, often free of charge, to provide access to exhibitions, facilities, and special activities. Open Days are designed to engage the community, attract new visitors, and provide educational and recreational opportunities. These events typically include guided tours, workshops, performances, and interactive sessions to enhance the visitor experience."
   } ],
@@ -3980,7 +3977,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Organization_Schema",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An abstract organization schema that specifies how parts, units, or elements are arranged and related within an intellectual work or exhibition-related articulation. It provides an explicit pattern of ordering (e.g., sequences, groupings, hierarchies, modules) through which content can be structured, independently of the media or dispositifs through which it may later be realized."
   } ],
@@ -4051,7 +4048,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Physical_Site",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class represents physical sites."
   } ],
@@ -4071,7 +4068,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Place_Of_Residence",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Residency is an intermediary (reified) spatio-temporal context that links a person to a place where they reside for a given time range. It is designed to represent residential history as a sequence of time-qualified relations rather than as a fixed attribute, allowing multiple residences to be recorded for the same individual across different periods. By capturing when and where a person lived, Residency supports the analysis of biographical trajectories, mobility patterns, and the spatial distribution of life contexts over time."
   } ],
@@ -4088,7 +4085,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Planned_Activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Planned Activity\" class represents any type of event that is systematically scheduled and organized ahead of time, often of significant interest, that takes place at a specific time and location. This includes a wide range of activities such as exhibitions, performances, lectures, workshops, openings, and other cultural or social gatherings. These activities are characterized by their temporality, purpose, and the involvement of participants or an audience. They are organized to achieve specific objectives, such as education, entertainment, community engagement, or celebration."
   } ],
@@ -4105,7 +4102,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Preliminary_Ideas",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Preliminary Ideas\" class represents the initial and preliminary concepts, thesis, arguments, hypothesis… that precede and ground the conception of a complete work. This can materialize as drafts, sketches, briefings, provisional reports, and other preparatory documents and artifacts. Preliminary Ideas serve as the foundational elements and exploratory steps in the conceptual, intellectual, and creative process, capturing the early stages of ideation, planning, and conceptual development. This class enables the analysis of changes and modifications experienced by works during their conceptualization process."
   } ],
@@ -4124,7 +4121,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Preliminary_Propositional_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Preliminary Propositional Object\" class represents entities that capture initial ideas, drafts, sketches, and other preliminary forms of a conceptual work. These objects are characterized by their formative nature, documenting the early stages of the creative or planning process. Preliminary Propositional Objects are crucial for understanding the development and evolution of a work, as they provide insights into the creator's thought process, experimentation, and conceptual groundwork. Examples include draft manuscripts, rough sketches, conceptual diagrams, provisional reports, and brainstorming notes."
   } ],
@@ -4141,7 +4138,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Press_Event",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Press Event\" class represents a media-focused event organized to provide information, announcements, or updates to journalists, media representatives, and other stakeholders. This includes press conferences, media briefings, and other events specifically designed to engage the press and provide them with the necessary materials and information to report on exhibitions, new acquisitions, significant developments, or special events."
   } ],
@@ -4172,7 +4169,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Produced_Material_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Produced Material Object\" class represents material objects that have been intentionally brought into material existence or manufactured through human effort or technological processes, with potential collaboration of non-human agents. These objects encompass a wide range of items, including physical artifacts, digital products, and formal expressions of ideas or concepts. Produced Material Objects are characterized by their origin in a production process, which can involve artistic creation, industrial manufacturing, digital rendering, computational programming, or other forms of materialization."
   } ],
@@ -4199,7 +4196,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Professional_Association",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An organizational entity that unites individuals from a specific profession with the aim of supporting continuous professional development, and representing the interests of its members in the public sphere. Examples of professional associations relevant in the art exhibition domain are “Asociación de Artistas Visuales (AAV)” or “Asociación de Galerías de Arte de Andalucía (AGAA)."
   } ],
@@ -4242,7 +4239,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Proposition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class refers to a semantic, intellectual, or conceptual element that articulates specific ideas. It can take the form of assertions, theses, hypotheses, arguments, interpretations, among others. Propositions are inherently part of \"propositional entities.\" They can be developed through “conceptual works”, conveyed and embodied in propositional objects, and assigned to any entity."
   } ],
@@ -4263,7 +4260,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Proposition_Assignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Proposition Assignment\" class represents the action of assigning a proposition, which can include interpretations, valuations, critical assessment, or other similar statements to an entity. This process involves linking specific propositions to artworks, exhibitions, objects, or any relevant subjects, thereby providing additional context, meaning, or evaluation. Proposition assignments are essential for enriching the understanding and appreciation of entities within the domain, facilitating scholarly analysis, and supporting curatorial decisions."
   } ],
@@ -4280,7 +4277,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Propositional_Entity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Propositional Entity\" class represents any entity, whether conceptual, material, or activity-based, that conveys, embodies, or entails some form of proposition. This proposition can be intentional and explicit or implicit. Propositional Entities encompass a wide range of forms, including artworks, exhibitions, catalogs, literary works, scholarly works, performances, lectures, conferences, and other entities that communicate or represent specific meanings, concepts, or messages. These entities are characterized by their capacity to convey and embody propositional content, which may involve thesis, hypotheses, interpretations, critical discussions, etc."
   } ],
@@ -4298,7 +4295,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Propositional_Object",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Propositional Object\" class represents material entities that are realizations of ideas, concepts, or conceptual works. Propositional Objects are characterized by their semantic nature. They convey meaning, express intellectual concepts, or articulate discourses. They can take the form of physical objects, formal expressions, or digital entities."
   } ],
@@ -4330,7 +4327,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Publication",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class comprises the processes and activities of publishing. This process involves various stages, including the creation, editing, design, printing or digital formatting. Publication brings into material existence propositional objects in the form of books, journals, articles, reports, catalogs, brochures, and digital content such as e-books or online articles."
   } ],
@@ -4374,7 +4371,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Representation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Representation is an intermediary (reified) spatio-temporal context that models the formal relationship in which an organisation—typically an art gallery—represents an artist or an artists’ collective. It captures the fact that representation is historically contingent and may change over time, enabling the association of the represented actant and the representing organisation with a specific time range (and, when relevant, with particular territories or market contexts). In OntoExhibit, Representation supports the analysis of professional networks and institutional mediation, covering activities such as promotion, market brokerage (e.g., sales), and the coordination of exhibition opportunities, without reducing these complex dynamics to a simple, timeless link between artist and gallery."
   } ],
@@ -4431,7 +4428,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Scholarly_Educational_Activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Academic-Educational Activity\" class represents activities designed to provide educational or scholarly value to participants. These activities are aimed at enhancing knowledge, fostering learning, and promoting academic inquiry within the context of art exhibitions and cultural events. Academic-Educational Activities include workshops, lectures, seminars, guided tours, educational programs, and other instructional sessions intended for students, educators, researchers, and the general public."
   } ],
@@ -4474,7 +4471,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Site",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents any defined area that facilitates specific art-related activities, encompassing both physical and non-physical (digital or virtual) environments, focusing on the use and significance of each place as a venue for events, interactions, or displays. This class includes buildings, natural landscapes, outdoor areas, as well as specific digital sites that are part of larger digital platforms or virtual environments."
   } ],
@@ -4491,7 +4488,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Social_Digital_Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Social Digital Place\" class represents digital environments designed to enable social interactions, communication and social engagement among users. Social Digital Places include social media platforms, online forums, and other digital venues that enable users to connect, share, and interact in a social context. This class is of significant cultural relevance, not only due to its frequent use by cultural actors, but also due to the growing tendency to use these spaces as venues for digital exhibitions. Example includes Museo del Prado’s TikTok or exhibitions curated and displayed in Instagram."
   } ],
@@ -4508,7 +4505,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Social_Interaction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Social Reaction\" class represents the interactions and responses that occur on social media platforms in relation to artworks, exhibitions, events, or cultural entities. This includes likes, comments, shares, mentions, and other forms of engagement that reflect the public's reaction and interaction with the content. Social Reactions provide valuable insights into audience perceptions, trends, and the overall impact of the cultural content within the social media landscape."
   } ],
@@ -4525,7 +4522,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Social_Publication",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Social Publication\" class represents forms of digital communication whose content it designed to be shared on social media plataforms, and to be public or semi-public consumed. This includes posts, TikTok vídeos, Instagram stories, etc. Social Publications are characterized by their interactive nature, often encouraging engagement, feedback, and sharing among users. They play a significant role in contemporary communication, social interaction, and digital culture."
   } ],
@@ -4542,7 +4539,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Spatial_Unit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents a specific segment or part of a larger spatial structure that serves a distinct function or holds significance within the overall environment. This class includes rooms, halls, wings, or any other designated areas within buildings, complexes, or other types of larger spaces. For example: the “Sala Noble” (spatial unit) is the spatial unit of Palacio de Villalón (Building – physical site), which is the headquarters of Museo Carmen Thyssen (Museum – cultural institution)."
   } ],
@@ -4572,7 +4569,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Techno-Actant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A technological entity or digital and/or computational object that actively participates in the artistic process or in the conceptualization, design, development, presentation, or interpretation of exhibitions. It may include software, hardware, and automated systems. The incorporation of this class allows OntoExhibit to capture and analyze the integration and impact of advanced technologies, especially AI systems in their multiple modalities, providing a framework to understand how these technological entities modify and affect the realm of artistic exhibitions and curatorial projects. Unlike the Non-Human Actant class, in the context of the OntoExhibit ontology, it is considered that technological entities and computational and/or digital objects inherently enclosed a human component in their design, conceptualization, development, and execution, and therefore cannot be considered non-human entities in a strict sense. This class is included without prejudice to the fact that further discussion about the role these entities play in the field of artistic and curatorial production and creation, and their agency value (their possibilities and their limits) must be developed in the coming years."
   } ],
@@ -4600,7 +4597,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Techno-Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Represents any virtual or digital environment that is created, enhanced, or enabled through technological means. In OntoExhibit, the techno-place class is a comprehensive class that comprises the variety of digital and/or technological spaces where the digital and/or computational activities of agents within the art exhibition domain are carried out."
   } ],
@@ -4639,7 +4636,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Territorial_Entity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class represents any defined area distinguished by administrative or geopolitical boundaries. This class encompasses a wide range of entities from cities and municipalities to states and countries. Each instance of a Territorial Entity is characterized by its governance structures and the legal and political recognition it holds. This class is crucial for analyzing and documenting the geopolitical movement of agents and objects, and for analyzing the influence and interactions of various levels of governance in cultural contexts."
   } ],
@@ -4673,7 +4670,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Thesis",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A proposition formulated as a thesis: a defendable statement that articulates a central claim or argument within critical, curatorial, scholarly, or institutional discourse."
   } ],
@@ -4690,7 +4687,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Time_Range",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class represents a span of time characterized by a specific start date and end date, capturing the duration between two defined points tin time."
   } ],
@@ -4707,7 +4704,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Time_Span",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Time Span\" class represents a continuous duration or interval of time. This class is used to capture the temporal extent of events, activities, processes, or any phenomena that occur over a period of time. A Time Span can range from very short durations, such as seconds or minutes, to extended periods, such as years, decades, or even millennia."
   } ],
@@ -4751,7 +4748,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Triennial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Triennial\" class represents a large-scale exhibition event that occurs every three years, showcasing a curated selection of artworks, often from a diverse range of artists, disciplines, and cultural backgrounds. Triennials are significant events in the art world, designed to present contemporary art, foster international cultural exchange, and engage with global artistic trends. These events typically span several months and include various programs such as exhibitions, performances, panel discussions, workshops, and educational activities."
   } ],
@@ -4794,7 +4791,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Vernissage",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Vernissage\" class represents the private viewing or preview of an art exhibition, typically held before the official opening to the public. Vernissages are often exclusive events attended by invited guests such as artists, critics, collectors, and other VIPs. These events provide an opportunity for attendees to view the artworks in an intimate setting, often accompanied by speeches, performances, or social gatherings that celebrate the launch of the exhibition."
   } ],
@@ -4852,7 +4849,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Visual_Organization_Schema",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "An ordering structure that specifies visual and spatial patterns of arrangement (e.g., layout logics, visual hierarchies, grids, pathways, alignments, groupings) through which content is made legible or navigable. It captures the schema of visual organization independently of any particular material installation or interface."
   } ],
@@ -4884,7 +4881,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Website",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Website\" class represents a collection of web pages and related content identified by a common domain name and published on at least one web server. In the art exhibition domain, examples include museums' websites that host digital exhibitions and other digital resources related to exhibitions, as well as websites specifically designed for an exhibition, such as the website of the digital exhibition Iconoclash (2023)."
   } ],
@@ -4901,7 +4898,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#Work_Manifestation",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"Work Manifestation\" class represents a specific realization or embodiment of an intellectual, literary, cultural or artistic work. This can include physical objects, formal expressions, or digital entities that materialize the work in a specific form, making it accessible to audiences."
   } ],
@@ -4995,7 +4992,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#apelation",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"appellation\" data property represents alternative names, titles, or designations assigned to an entity, other than the official name. This property is used to specify commonly recognized names, nicknames, colloquial titles, or other forms of identification that serve to distinguish and identify the entity beyond its official designation. Instances are El Greco, Museo Reina Sofía (being the official name: Museo Nacional Centro de Arte Reina Sofía), Big Apple (New York), El Quijote, etc."
   } ],
@@ -5171,7 +5168,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#awards",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Describes the prizes or recognitions that will be awarded to the winners."
   } ],
@@ -5188,7 +5185,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#biographical_context",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Biographical context is a subclass of Spatio-temporal context used to model time-qualified circumstances that shape an individual’s life history and trajectory. It groups intermediary constructs that connect a person to places, situations, or other biographical conditions while accounting for change over time (e.g., moving between residences or shifting life settings). Rather than treating such relations as fixed attributes of a person, Biographical context represents them as contextual records anchored to a defined time range, enabling the reconstruction and analysis of biographical geographies and temporal sequences."
   } ],
@@ -5258,7 +5255,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#conveys",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Conveys relates a propositional entity to one or more propositions that it bears as propositional content."
   } ],
@@ -5306,7 +5303,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#description",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A detailed textual description of the entity, including its purpose, functionalities, and key features."
   } ],
@@ -5365,7 +5362,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#embodies",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Embodies relates a propositional object to a proposition when that proposition is materially instantiated in the object (physically or computationally), i.e., realized in its structure, configuration, or operation."
   } ],
@@ -6005,7 +6002,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#hasDigitalAnalogous",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"hasDigitalAnalogous\" property represents a relationship between an entity and its exact digital reproduction. This property is used to link entities to their precise digital counterparts, which maintain all attributes and characteristics of the original. Examples of such digital analogues include a PDF version of a book, a digital twin of a building or city, or an exact 3D reconstruction of a physical object. The \"hasDigitalAnalogous\" property emphasizes the fidelity and accuracy of the digital reproduction in relation to the original entity, ensuring that the digital version tends to serve as an exact representation."
   } ],
@@ -6045,7 +6042,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#hasDigitalVersion",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"hasDigitalVersion\" property represents a relationship between an entity and its digital counterpart, where the digital version is not merely a reproduction but a variation or interpretation of the original entity. This digital version may incorporate additional elements, contextual adjustments, or creative reinterpretations that distinguish it from a straightforward digital copy. The property emphasizes the transformative nature of the digital version, which can offer new perspectives, enhanced features, or alternative forms of engagement with the original entity. The relationship between an entity and its exact digital counterpart is defined as “hasDigitalAnalogous,” while the relationship between an activity and its mere recording is defined as “hasDigitalRecording.”"
   } ],
@@ -6157,7 +6154,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#hasExhibitingActant",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"hasExhibitingActant\" property identifies the creative agents who participate in an exhibition by showcasing their works. This property links an exhibition or event to the agents (individuals or groups) responsible for exhibiting their creations, thereby acknowledging their role in the presentation of the artworks. For instance: Picasso is ExhibitingActantIn the exhibition “Picasso, 1906. The great transformation."
   } ],
@@ -6218,7 +6215,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#hasExhibitor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property identifies the agents (such as institutions, gallerists, collectors, etc.) that participate in an exhibition with their works. This property links an exhibition or event to the exhibitors who contribute by providing or showcasing their collections, acknowledging their role in the exhibition. For instance: Galería Alfredo Viñas isExhibitorIn Arco 2020 (art fair)."
   } ],
@@ -6501,7 +6498,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#hasMembership",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Indicates that a human agent holds a membership within a collective human agent as represented by the Membership class."
   } ],
@@ -6577,7 +6574,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#hasOrderingPrinciple",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Relates an organization schema to the ordering principle(s) it implements. A schema may implement multiple principles (e.g., thematic + chronological), and a principle may be realized by multiple schemas."
   } ],
@@ -7181,7 +7178,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#hasSpatialLocus",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates an Event to a spatial anchor—physical or digital—used to situate the event in space when such contextualization is meaningful. It is intentionally broad and optional: many events can be spatially located in principle, but the location may be unknown, irrelevant, or not recorded. Use hasSpatialLocus for lightweight contextual placement (e.g., an interaction occurring in a messaging platform, an assignment made within an institutional system, a reaction recorded via a device), without implying that the event has a formal venue or that spatial information is a primary descriptive feature.\n\nTypical use: contextual, “if needed” spatialization of any event (including non-programmed or non-operational events)."
   } ],
@@ -7356,7 +7353,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#headquarter_assignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Headquarter is an intermediary (reified) spatio-temporal context that links a collective actant (e.g., a group, community, or corporate body) to its principal physical operational site for a given time range. It represents headquarters information as historically contingent, allowing organisations to be associated with different main addresses or sites across successive periods rather than treating headquarters as a permanent attribute.\n\nIn OntoExhibit, Headquarter is intended for cases—especially common in cultural organisations such as galleries—where the official physical base of operations changes over time. It should be distinguished from Location, which may record multiple simultaneous forms of organisational presence (including techno-digital places), and from Activity Place, which captures the wider set of places where an actant conducts activities beyond its principal site.."
   } ],
@@ -7415,7 +7412,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#identifier",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The \"identifier\" data property represents a unique code, number, or string assigned to an entity within various authority vocabularies. This property is used to specify the authoritative identifier that distinguishes an entity in controlled vocabularies, databases, or registries maintained by recognized institutions or organizations. Identifiers ensure consistent and unambiguous reference to entities across different systems and contexts."
   } ],
@@ -7471,7 +7468,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#institutional_center_assignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Is an intermediary (reified) spatio-temporal context that links a collective actant to a physical place functioning as an institutional facility within a defined time range. It captures the organisational role of a physical site (as part of an institution’s infrastructure) rather than treating the site itself as a type of institution. Instances of Institutional center support the modelling of institutions with multiple facilities and changing spatial infrastructures over time, enabling analysis of institutional footprints, expansions, relocations, and multi-site configurations."
   } ],
@@ -7488,7 +7485,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#institutional_context",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
     "@value" : "is a subclass of Spatio-temporal context that groups intermediary (reified) constructs used to describe time-qualified institutional configurations and organisational circumstances. It is intended to model historically variable institutional arrangements—such as official locations, centres, and infrastructural presences—without reducing them to timeless attributes of the organisation or to the intrinsic nature of places. In OntoExhibit, Institutional context provides a shared pattern for representing how collective actants are situated and structured across time through formal, institutionally recognised relations to physical and/or techno-digital places."
   } ],
@@ -8122,7 +8119,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#isExhibitingActantIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property identifies the creative agents who participate in an exhibition by showcasing their works. This property links an exhibition or event to the agents (individuals or groups) responsible for exhibiting their creations, thereby acknowledging their role in the presentation of the artworks. For instance: Picasso is ExhibitingActantIn the exhibition “Picasso, 1906. The great transformation\"."
   } ],
@@ -8192,7 +8189,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#isExhibitorIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property identifies the agents (such as institutions, gallerists, collectors, etc.) that participate in an exhibition with their works. This property links an exhibition or event to the exhibitors who contribute by providing or showcasing their collections, acknowledging their role in the exhibition. For instance: Galería Alfredo Viñas isExhibitorIn Arco 2020 (art fair)."
   } ],
@@ -9280,7 +9277,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#name",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "The official name or designation of an entity."
   } ],
@@ -9354,7 +9351,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#ordering_principle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Ordering Principle designates an abstract principle that governs how elements are ordered, sequenced, grouped, or prioritized in an intellectual work or exhibition-related articulation (e.g., chronological, thematic, geographic, typological, algorithmic). It expresses the logic of ordering, independently of the particular structure that realizes it."
   } ],
@@ -9416,7 +9413,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#population",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Number of inhabitants."
   } ],
@@ -9433,7 +9430,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#process_locus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Process Locus designates a place understood in its role as the spatial (territorial or techno-digital) locus of a process relevant to curation and/or exhibition making and its associated chains of cultural production. Rather than defining a place by its intrinsic nature (e.g., territory, building, platform), this class captures a contextual function: a place becomes a Process Locus when it is referenced as the location where specific processes occur—such as conception, curation, creation, foundation, dissolution, or destruction—within the broader ecology of exhibitions, artworks, institutions, and cultural agents.\n\nIn OntoExhibit, Process Locus is introduced to make explicit the often distributed and multi-sited character of exhibition work. It enables the ontology to distinguish between the frontstage geography of display (e.g., venues/sites where exhibitions are presented) and the backstage geography of production and organization (e.g., where curatorial, creative, and institutional processes are carried out, which may be remote, outsourced, or platform-based). A single place (for instance, a city, a workshop, a museum building, or an online environment) may function as a Process Locus in some contexts and not in others; therefore, Process Locus should not be interpreted as a permanent subtype of place, but as a role inferred from its participation in process-location relations.\n\nBy providing a shared conceptual handle over heterogeneous place types, Process Locus supports comparative analysis across cases (e.g., identifying off-site or techno-digital loci of conception and curation, mapping distributed production networks, and measuring degrees of spatial decoupling between production and exhibition). This makes it particularly useful for exhibition studies and curatorial research focused on infrastructures, labor, and the spatial politics of cultural production."
   } ],
@@ -9469,7 +9466,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#professional_context",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Professional context is a subclass of Spatio-temporal context used to model time-qualified relations through which actants participate in professional, institutional, and organisational environments. It groups intermediary constructs that connect people or collectives to places of activity, memberships, affiliations, representative roles, or executive positions, capturing how these relations evolve across time and (when relevant) across space. By reifying these links as contextual records, Professional context supports analyses of careers, networks, institutional trajectories, and the shifting infrastructures through which cultural work is organised within exhibition ecosystems."
   } ],
@@ -9511,7 +9508,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#propositional_activity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Propositional Activity designates a planned activity whose defining component includes one or more propositions articulated as its propositional content. It covers activities in which statements, arguments, interpretations, or discursive framings are central to what the activity is and does, enabling them to be related to \"Proposition\" via \"conveys\" within OntoExhibit."
   } ],
@@ -9549,7 +9546,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#secondary_center_assignment",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This class refers to a subsidiary or additional facility of an institution, distinct from its main headquarters. This center may be the place of activities related to the institution's mission, providing supplementary services, exhibitions, or resources. It usually serves as an extension of the institution, enhancing its reach and capabilities. Example: \"The Villanueva building serve as the headquarters of the Museo del Prado, whereas the Casón del Buen Retiro serves as Secondary Center.\""
   } ],
@@ -9651,7 +9648,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#software_version",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A detailed list of the technical specifications and requirements of the techno-actant."
   } ],
@@ -9668,7 +9665,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#spatio-temporal_context",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Spatio-temporal context is a superclass for intermediary (reified) constructs that qualify relationships by explicitly attaching them to a time range and, when relevant, to a spatial setting or other contextual parameters. It is used to model situations in which a link between an actant (person, collective, institution) and an entity such as a place, an organization, a role, or a position must be expressed as historically variable rather than fixed. Instances of this class therefore function as contextual “records” that capture how a relationship holds during a specific period (and potentially in specific locations), supporting the representation of change over time (e.g., moving residence, shifting memberships, evolving professional affiliations, or relocating areas of activity).\n\nIn OntoExhibit, Spatio-temporal context provides a shared modeling pattern for biographical and professional/institutional histories—such as Residency, Place of Activity, Membership, Representation, Executive Position, and Affiliation—by separating the stable entities involved (actants, places, organizations) from the time-qualified contexts that connect them. This design enables robust querying and comparative analysis of trajectories, networks, and spatial distributions across the exhibition ecosystem without conflating entities with the temporalized circumstances in which their relations are enacted."
   } ],
@@ -9682,7 +9679,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#status",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A detailed list of the technical specifications and requirements of the techno-actant."
   } ],
@@ -9718,7 +9715,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#takesPlaceAt",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property relates an Activity (including both Process and Planned_Activity) to its broader place of occurrence—the territorial or techno-spatial context in which the activity unfolds. It is used to record the general geographic or infrastructural setting of an activity (e.g., a city, region, country, or a digital/technical environment), independently of the specific host site. In this model, takesPlaceAt complements hasVenue: while hasVenue points to the concrete hosting site (e.g., a museum building, gallery, institutional facility, or platform-as-site), takesPlaceAt captures the wider territorial or techno-place context that situates that venue and the activity within a larger spatial frame.\n\nTypical use:\n\nExhibition hasVenue Villanueva building (Museo del Prado) (site)\n\nExhibition takesPlaceAt Madrid (territorial entity)\n\nOnline activities may use takesPlaceAt to indicate the relevant techno-place (e.g., a platform/ecosystem) when the broader infrastructural context matters."
   } ],
@@ -9734,7 +9731,7 @@
 }, {
   "@id" : "https://w3id.org/OntoExhibit#technical_specifications",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A detailed list of the technical specifications and requirements of the techno-actant."
   } ],
@@ -9838,7 +9835,7 @@
 }, {
   "@id" : "https://www.iflastandards.info/fr/frbr/frbroo#F11_Corporate_Body",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://purl.org/dc/terms/description" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A \"Corporate Body\" refers to an organization or group of individuals that is recognized by law as a single entity, having its own legal identity separate from that of its members. This class encompasses entities such as corporations, associations, institutions, and government agencies, which can own property, enter into contracts, sue, and be sued in their own name. The corporate body operates through a structured governance system, typically including a board of directors or similar governing body, and is established for specific purposes such as business, education, or public service. The definition of a corporate body highlights its capacity to act as a unified entity in legal, financial, and operational contexts."
   } ],

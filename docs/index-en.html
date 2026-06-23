@@ -17,7 +17,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/OntoExhibit#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/OntoExhibit#","name":"OntoExhibit", "headline":"Document describing the ontology https://w3id.org/OntoExhibit#", "dateReleased":"Date created", "dateModified":"Date modified"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/OntoExhibit#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/OntoExhibit#","name":"OntoExhibit", "headline":"OntoExhibit is the result of transforming and extending the conceptual model underlying Expofinder, a relational database developed within the Exhibitium project (Rodríguez-Ortega, Cruces-Rodríguez, 2019). The Expofinder model adheres to the traditional conception of the exhibition field: a network made up of the relationships that exhibitions establish among heterogeneous actors (artists, curators, institutions, etc.) and the cultural objects displayed. This model served as the starting point for the design and construction of the OntoExhibit model, which is an enhanced version born out of a refined conceptualization of the exhibition field. This development was informed by extensive conversations and dialogues with a diverse community of researchers, curators, gallery owners, and art critics.OntoExhibit interprets the art exhibition domain as a complex cultural ecosystem, comprising a diverse array of actors (including both human and non-human entities) intertwined through discursive and social practices. These practices create a complex web of semantic layers that imbue the domain with symbolic values. OntoExhibit thus approaches the phenomenon of art exhibitions in its double condition: as a distinct discursive, social, and cultural production emerging from a set of practices and interactions, and as an active producer/generator of discourses and public spheres. These public spheres, in turn, are shaped by discursive and social practices that also convey meanings and generate symbolic value, which can influence subsequent exhibitions. This creates a dynamic and continuous cycle of cultural impact and significance.According to this conceptualization, OntoExhibit aims to deepen our understanding of the structures, networks, and behavioral patterns within this cultural ecosystem; unravel its social, discursive, and semantic intricacies; and enhance our insights into the engagement of individuals and communities with cultural heritage through exhibitions. To this end, OntoExhibit integrates traditional modeling approaches of the art exhibition domain with new extensions.", "dateReleased":"2022-11", "dateModified":"2026-06-22", "version":"1.1.0", "license":"https://creativecommons.org/licenses/by/4.0/", "codeRepository":"https://github.com/iArtHis-Lab/OntoExhibit", "author":[{"@type":"Person","name":"https://github.com/MartinM10","url":"https://github.com/MartinM10"},{"@type":"Person","name":"Maria del Mar Roldán García"},{"@type":"Person","name":"María Luisa Díez Platas"},{"@type":"Person","name":"Nuria Rodriguez Ortega"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -66,24 +66,62 @@ $(function(){
 <div class="head">
 <div style="float:right">language <a href="index-en.html"><b>en</b></a> <a href="index-es.html"><b>es</b></a> </div>
 <h1>OntoExhibit</h1>
-<h2>Release: Date created</h2>
+<img src="https://raw.githubusercontent.com/iArtHis-Lab/.github/refs/heads/main/resources/logo_ontoexhibit.png" width="200">
+<h2>Release: 2022-11</h2>
 
 
 <dl>
-<dt>Modified on: Date modified</dt>
-<dt>Issued on:</dt>
-<dd>Date issued</dd>
-<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="http://insertlicenseURIhere.example.org" target="_blank"><img src="https://img.shields.io/badge/License-license%20name%20goes%20here-blue.svg" alt="http://insertlicenseURIhere.example.org" /></a>
+<dt>Modified on: 2026-06-22</dt>
+<dt>This version:</dt>
+<dd><a href="https://w3id.org/OntoExhibit/1.1.0">https://w3id.org/OntoExhibit/1.1.0</a></dd>
+<dt>Revision:</dt>
+<dd>1.1.0</dd>
+<dt>Authors:</dt>
+<dd><a href="https://github.com/MartinM10">https://github.com/MartinM10</a></dd><dd>Maria del Mar Roldán García</dd><dd>María Luisa Díez Platas</dd><dd>Nuria Rodriguez Ortega</dd>
+
+<dt>Funder:</dt>
+<dd><a href="https://ciencia.sede.gob.es/">https://ciencia.sede.gob.es/</a></dd><dd><a href="https://www.juntadeandalucia.es/">https://www.juntadeandalucia.es/</a></dd>
+
+<dt>Funding:</dt>
+<dd><a href="https://andalexproject.iarthislab.eu/">https://andalexproject.iarthislab.eu/</a></dd><dd><a href="https://complexhibit.eu/">https://complexhibit.eu/</a></dd>
+
+<dt>Download serialization:</dt><dd><span><a href="ontology.jsonld" target="_blank"><img src="https://img.shields.io/badge/Format-JSON_LD-blue.svg" alt="JSON-LD" /></a> </span><span><a href="ontology.owl" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML" /></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples" /></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL" /></a> </span></dd><dt>License:</dt><dd><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="https://img.shields.io/badge/License-https://creativecommons.org/licenses/by/4.0/-blue.svg" alt="https://creativecommons.org/licenses/by/4.0/" /></a>
 </dd><dt>Visualization:</dt><dd><a href="webvowl/index.html#" target="_blank"><img src="https://img.shields.io/badge/Visualize_with-WebVowl-blue.svg" alt="Visualize with WebVowl" /></a></dd>
-<dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd></dl>
+<dt>Evaluation:</dt><dd><a href="OOPSevaluation/oopsEval.html#" target="_blank"><img src="https://img.shields.io/badge/Evaluate_with-OOPS! (OntOlogy Pitfall Scanner!)-blue.svg" alt="Evaluate with OOPS!" /></a></dd><dt>Cite as:</dt>
+<dd>Nuria Rodríguez Ortega, María del Mar Roldán García, Martín Jerónimo Salvachúa, María Luisa Díez Platas. OntoExhibit version 1.1.0. URL: https://w3id.org/OntoExhibit</dd>
+<dt>Vocabulary maintained at:</dt>
+<dd><a href="https://github.com/iArtHis-Lab/OntoExhibit">https://github.com/iArtHis-Lab/OntoExhibit</a></dd>
+</dl>
 
 <a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a><hr/>
 </div>
 <div class="status">
 <div>
-<span>Specification Draft</span>
+<span>Ontology Specification Draft</span>
 </div>
-</div><div id="toc"></div>  
+</div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
+OntoExhibit is the result of transforming and extending the conceptual model underlying Expofinder, a relational database developed within the Exhibitium project (Rodríguez-Ortega, Cruces-Rodríguez, 2019). The Expofinder model adheres to the traditional conception of the exhibition field: a network made up of the relationships that exhibitions establish among heterogeneous actors (artists, curators, institutions, etc.) and the cultural objects displayed. This model served as the starting point for the design and construction of the OntoExhibit model, which is an enhanced version born out of a refined conceptualization of the exhibition field. This development was informed by extensive conversations and dialogues with a diverse community of researchers, curators, gallery owners, and art critics.
+
+OntoExhibit interprets the art exhibition domain as a complex cultural ecosystem, comprising a diverse array of actors (including both human and non-human entities) intertwined through discursive and social practices. These practices create a complex web of semantic layers that imbue the domain with symbolic values. OntoExhibit thus approaches the phenomenon of art exhibitions in its double condition: as a distinct discursive, social, and cultural production emerging from a set of practices and interactions, and as an active producer/generator of discourses and public spheres. These public spheres, in turn, are shaped by discursive and social practices that also convey meanings and generate symbolic value, which can influence subsequent exhibitions. This creates a dynamic and continuous cycle of cultural impact and significance.
+
+According to this conceptualization, OntoExhibit aims to deepen our understanding of the structures, networks, and behavioral patterns within this cultural ecosystem; unravel its social, discursive, and semantic intricacies; and enhance our insights into the engagement of individuals and communities with cultural heritage through exhibitions. To this end, OntoExhibit integrates traditional modeling approaches of the art exhibition domain with new extensions.</span>
+</div>
+<div id="toc"></div> 
+
+<!--INTRODUCTION SECTION-->
+    <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">OntoExhibit is being aligned with reference ontologies, specifically with CIDOC-CRM (7.2.1.) and FRBRoo (3.0). These ontologies have informed the definition of some of the classes and properties, while new classes and properties are being created to respond to the requirements of the art exhibition domain as defined in section 1. This is not a CIDOC-CRM specification as such, as only a few entities and properties have been adopted to facilitate alignment. OntoExhibit presents a conceptual structure and a hierarchy of classes different from that of CIDOC-CRM, which is better suited to the current configuration of the art exhibition domain and to the conceptualization of this phenomenon as a complex cultural ecosystem (Rodríguez Ortega, in press).
+
+This research has been funded by the Ministerio de Ciencia e Innovación (Spanish Government), grant number PID2021-125037NB-I00, and by the Junta de Andalucía, grant numbers PY20_00508, UMA20-FEDERJA-126.
+
+Referenced ontologies
+- frbroo: https://www.iflastandards.info/fr/frbr/frbroo.html
+- cidoc-crm: http://www.cidoc-crm.org/cidoc-crm/
+
+Referenced ontology design patterns
+- agentRole: http://www.ontologydesignpatterns.org/cp/owl/agentrole.owl</span>
+</div>
+  
 
 <!--OVERVIEW SECTION-->
     <div id="overview"><h2 id="overv" class="list">OntoExhibit: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
@@ -3063,6 +3101,12 @@ This ontology has the following classes and properties.</span>
    </li>
 </ul><iframe src="webvowl/index.html"></iframe> 
 </div>
+  
+
+<!--DESCRIPTION SECTION-->
+    <div id="description"><h2 id="desc" class="list">OntoExhibit: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">OntoExhibit consists of an OWL 2 (Ontology Web Language) ontology designed to facilitate the adoption of FAIR (Findable, Accessible, Interoperable, and Reusable) principles in managing information associated with the art exhibition domain, as a fundamental mean to guarantee its standardization, interoperability, reusability, and the extraction of new and strategic knowledge within this cultural sector. Within this context, OntoExhibit is conceived as a comprehensive ontology designed to address the needs and requirements of a range of target scenarios: 1. art historians and researchers engaged in exhibition and curatorial studies; 2. cultural heritage professionals involved in recording and documenting art exhibitions; 3. museum and independent curators; 4. gallery owners; and 5. CCI and tourism stakeholders.</span></div>
    
 
 <!--CROSSREF SECTION-->
@@ -3331,6 +3375,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Actant">
   <h3>actant<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Actant</p>
+  <div class="comment">
+   <span class="markdown">This class comprises entities that engage in a role or perform specific activities, either on their own initiative or mobilized by other entities. In the context of the OntoExhibit ontology, it refers to those entities that play an active role in the art exhibition domain. This class is broader than the CIDOC-CRM E39 Actor class, which is limited to human entities. Additionally, the decision to use the term "actant" over the more conventional term "actor" stems from the Greimasian tradition, where the condition of being an actant is determined by the specific role or function that an entity performs. In contrast, the term "actor," as currently associated with the concept of actor in Bruno Latour's actor-network theory, is defined by its capacity to exert agency. Acknowledging that any entity might possess agency within a specific context or time, the class labeled as “actor” would be all-encompassing, including all classes. Conversely, designating a distinct class as "actor" would restrict agency value to those classes classified as subclasses of actor.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -3361,6 +3408,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Activity">
   <h3>activity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Activity</p>
+  <div class="comment">
+   <span class="markdown">This class comprises specific, goal-oriented actions and operations carried out by a single agent or a collective. Activities are concrete, distinguishable events situated in a spatio-temporal context, typically involving coordination, resources, and participation. They may lead to material or conceptual outcomes, and include both transformative processes (e.g., creation, production, curation) and planned or programmed activities (e.g., concerts, lectures, openings).</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3391,6 +3441,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Activity_Place">
   <h3>activity place<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Activity_Place</p>
+  <div class="comment">
+   <span class="markdown">Place of Activity is an intermediary (reified) spatio-temporal context that links a human actant (or collective) to one or more places in which they carry out professional activities during a defined time range. It is intended to capture activity geographies that may be distributed across multiple locations rather than reducible to a single, fixed base. For example, an art gallery may operate through branches, fairs, collaborations, or recurring programs in several cities beyond the city where its main office is located. In OntoExhibit, Place of Activity supports the analysis of dispersed cultural work and the spatial dynamics of professional trajectories. The set of places connected to an actant through successive or concurrent instances of Place of Activity constitutes the actant’s broader area of activity, enabling comparative study of mobility, networked operations, and the territorial and techno-digital reach of actors within exhibition ecosystems.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3427,6 +3480,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Affiliation">
   <h3>affiliation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Affiliation</p>
+  <div class="comment">
+   <span class="markdown">Affiliation is an intermediary (reified) spatio-temporal context that records a formal staff relationship between an individual and an organisation. It captures cases in which a person is affiliated with an institution through employment or an equivalent contractual arrangement, performing defined roles and responsibilities within the organisation during a specific time range (and, where relevant, under particular terms or statuses). In OntoExhibit, Affiliation supports the analysis of institutional labour and professional trajectories by making staff relationships explicit, time-qualified, and queryable, without reducing them to a timeless link between a person and an organisation.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3487,6 +3543,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Approximate_Date">
   <h3>approximate date<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Approximate_Date</p>
+  <div class="comment">
+   <span class="markdown">The "Approximate Date" class represents a point in time that is not defined with precise accuracy but is estimated to fall within a certain range. This includes dates that are roughly known, such as an approximate year, month, or day, and can be used when exact dates are not available or necessary. Approximate Dates are useful for historical research, planning, and scenarios where only an estimated timeframe is required.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3511,6 +3570,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Architectural_Work_Manifestation">
   <h3>architectural work manifestation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Architectural_Work_Manifestation</p>
+  <div class="comment">
+   <span class="markdown">The "Architectural Work Manifestation" class represents the tangible manifestation of an architectural project.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3547,6 +3609,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Art_Competition">
   <h3>art competition<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Art_Competition</p>
+  <div class="comment">
+   <span class="markdown">The "Art Competition" class represents an organized event where participants submit their artworks to be evaluated and judged, with the goal of winning prizes or recognition. These events also serve to showcase artworks to the public in a competitive context.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3589,6 +3654,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Art_Exhibition_Digital_Platform">
   <h3>art exhibition digital platform<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Art_Exhibition_Digital_Platform</p>
+  <div class="comment">
+   <span class="markdown">This class represents digital platforms specifically designed to produce, host, and present digital exhibitions. An instance of this class is the ‘New Art City’ platform.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3601,6 +3669,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Fair">
   <h3>art fair<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Fair</p>
+  <div class="comment">
+   <span class="markdown">The "Art Fair" class represents a type of "Exhibitionary Event" that brings together multiple galleries, artists, and exhibitors to showcase and sell artworks in a single venue. Art fairs are typically large-scale events that attract collectors, critics, curators, and the general public. These events often include a variety of programs such as exhibitions, talks, panel discussions, and performances, providing a dynamic platform for the art market and fostering cultural exchange.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3613,6 +3684,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Gallery">
   <h3>art gallery<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Gallery</p>
+  <div class="comment">
+   <span class="markdown">An organizational entity dedicated to exhibiting and marketing works of art. Art galleries play a crucial role in the art ecosystem, acting as intermediaries between artists and the public, and often contribute to the development of artistic careers and the fostering of contemporary art trends.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3664,6 +3738,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Artists_Group">
   <h3>artists group<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Artists_Group</p>
+  <div class="comment">
+   <span class="markdown">A group of individuals who collaborate or associate under a common name or collective identity with the purpose of creating, exploring, or exhibiting art.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3712,6 +3789,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Assessment">
   <h3>assessment<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Assessment</p>
+  <div class="comment">
+   <span class="markdown">An evaluative proposition expressing a judgment (explicit or implicit) according to criteria or standards, potentially including gradations, comparisons, or attributions of quality/fitness.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3736,6 +3816,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Assement_Assignment">
   <h3>assessment assignment<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Assement_Assignment</p>
+  <div class="comment">
+   <span class="markdown">The "Assessment Assignment" class represents the act or process of evaluating, appraising, or judging the quality, value, or significance of an entity or work. Assessment Assignments can be applied to artworks, projects, performances, or any other entities that require formal evaluation.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3760,6 +3843,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Assignment">
   <h3>assignment<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Assignment</p>
+  <div class="comment">
+   <span class="markdown">The "Assignment" class represents the action of assigning attributes, propositions, statements, evaluations, critical assessment, interpretations, or similar elements to entities. This action involves linking specific descriptive, interpretative or evaluative contents to artworks, exhibitions, cultural creations and events, or any relevant subjects within the domain. The Assignment class is essential for providing additional context, meaning, or evaluation to entities, thereby enhancing understanding, interpretation, and scholarly analysis.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -3872,6 +3958,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Auction">
   <h3>auction<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Auction</p>
+  <div class="comment">
+   <span class="markdown">The "Auction" class represents a type of "Exhibitionary Event" where artworks, artifacts, or other items are presented for sale to the highest bidder. Auctions are typically organized by auction houses, galleries, or other entities, and they attract collectors, dealers, and the general public.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3920,6 +4009,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Author">
   <h3>author<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Author</p>
+  <div class="comment">
+   <span class="markdown">The "Author" class represents individuals or entities responsible for the creation and conceptualization within art exhibitions. This includes not only the creators of the exhibited works, such as visual artists, sculptors, painters, photographers, and multimedia artists, but also those involved in the conceptualization of the exhibition itself, the design of the museographic elements, and other creative and productive contributions that shape the overall experience of the exhibition.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3950,6 +4042,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Beginning_Of_Activity">
   <h3>beginning of activity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Beginning_Of_Activity</p>
+  <div class="comment">
+   <span class="markdown">The "Beginning of Activity" class represents the initial actions or events that mark the commencement of a larger activity or event. This includes ceremonies, inaugural speeches, opening performances, or any other activities that signify the start of an event or activity.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3986,6 +4081,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Biennial">
   <h3>biennial<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Biennial</p>
+  <div class="comment">
+   <span class="markdown">The "Biennial" class represents a large-scale exhibition event that occurs every two years, showcasing a curated selection of artworks, often from a diverse range of artists, disciplines, and cultural backgrounds. Biennials are significant events in the art world, designed to present cutting-edge contemporary art, foster international cultural exchange, and engage with global artistic trends. These events typically span several months and include various programs such as exhibitions, performances, panel discussions, workshops, and educational activities.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -3998,6 +4096,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="biographical_context">
   <h3>biographical context<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#biographical_context</p>
+  <div class="comment">
+   <span class="markdown">Biographical context is a subclass of Spatio-temporal context used to model time-qualified circumstances that shape an individual’s life history and trajectory. It groups intermediary constructs that connect a person to places, situations, or other biographical conditions while accounting for change over time (e.g., moving between residences or shifting life settings). Rather than treating such relations as fixed attributes of a person, Biographical context represents them as contextual records anchored to a defined time range, enabling the reconstruction and analysis of biographical geographies and temporal sequences.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4016,6 +4117,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Biological_Event">
   <h3>biological event<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Biological_Event</p>
+  <div class="comment">
+   <span class="markdown">A biological event refers to any significant occurrence or process within a biological system that results in a change or development in the organism, population, or ecosystem.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4034,6 +4138,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Biological_Object">
   <h3>biological object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Biological_Object</p>
+  <div class="comment">
+   <span class="markdown">The "Biological Object" class represents entities derived from living organisms, including plants, animals, fungi, and microorganisms. These objects are naturally occurring and can be displayed in art exhibitions for their scientific, educational, aesthetic, or cultural significance. Biological Objects may include specimens, preserved samples, live organisms, or parts of organisms (such as leaves, bones, shells, or feathers) and can be integral components of artworks or installations, providing a unique intersection between art and nature.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4178,6 +4285,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Collective_Human_Actant">
   <h3>collective human actant<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Collective_Human_Actant</p>
+  <div class="comment">
+   <span class="markdown">A group of individuals who act together as a collective entity to influence, participate in, or intervene in specific processes or situations. This collective may be formal, such as institutions or professional associations, or informal, such as social communities or an interest group.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4220,6 +4330,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Comment">
   <h3>comment<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Comment</p>
+  <div class="comment">
+   <span class="markdown">A proposition formulated as a comment: a brief, situated—often reactive—statement expressing an observation, evaluation, interpretation, agreement/disagreement, or qualification regarding an entity or situation in the exhibition ecosystem. It is distinct from any specific materialization or carrier (e.g., post, note, or form entry), which is modeled elsewhere.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4256,6 +4369,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Communication_Activity">
   <h3>communication activity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Communication_Activity</p>
+  <div class="comment">
+   <span class="markdown">The "Communication Activity" class represents any activity aimed at conveying information, promoting events, engaging with audiences, or facilitating interaction and dialogue. This includes a wide range of activities such as public relations campaigns, social media interactions, press releases, newsletters, and other forms of communication that support the dissemination and reception of information related to art exhibitions and cultural events.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4274,6 +4390,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Communication_Dispositif">
   <h3>communication dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Communication_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Communication Dispositif" class represents materials and events used to communicate and disseminate information about cultural activities and productions. These dispositifs typically include press releases, brochures, websites, social media posts, newsletters, and other structured systems or media that convey information to the public and stakeholders. Additionally, other objects and materials can also serve this purpose. Therefore, this class links cultural activities and productions with those propositional objects and events that inform about them, regardless of their nature, genre, or typology.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4304,6 +4423,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Communities">
   <h3>community<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Communities</p>
+  <div class="comment">
+   <span class="markdown">A group of individuals who interact informally moved by shared interests. In the context of the OntoExhibit ontology, this class specifically refers to communities that interact on social media platforms, such as Twitter, Facebook, Discord, etc. This class would include, for example, instances of DAOs (decentralized autonomous organizations).</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4316,6 +4438,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Company">
   <h3>company<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Company</p>
+  <div class="comment">
+   <span class="markdown">A legal entity established with the goal of obtaining economic benefits. In the context of the OntoExhibit ontology, this class specifically refers to those entities dedicated to the sale, distribution, or promotion of products and services related to art. This may include commercial galleries, art consultancy firms, art supply companies, among others. It also refers to those entities not directly related to the art field, but that can act as promoters or financiers in certain exhibition projects. This class also includes those entities that play a significant role in the field of art criticism, the production/publication of curatorial texts, and, in general, cultural, intellectual, or artistic productions related to art exhibitions.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4364,6 +4489,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Computational_Development">
   <h3>computational development<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Computational_Development</p>
+  <div class="comment">
+   <span class="markdown">The "Computational Development" class represents the activities and processes involved in creating, designing, and implementing computational systems, software, and algorithms. This includes the development of digital tools, applications, interactive systems, and computational models that support various domains such as art, science, engineering, and education. Computational Development encompasses tasks such as coding, software engineering, system architecture, algorithm design, and testing, aimed at producing functional and innovative technological solutions.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4433,6 +4561,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Concept">
   <h3>concept<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Concept</p>
+  <div class="comment">
+   <span class="markdown">A fundamental unit that represents an abstract idea, entity, or category that encapsulates the essential characteristics and properties of an object, event, or phenomenon.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -4463,6 +4594,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Conception">
   <h3>conception<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Conception</p>
+  <div class="comment">
+   <span class="markdown">Conception" refers to the specific activity involved in the conceptualization of abstract, non-material objects. This class encompasses the intellectual processes and creative thinking required to develop ideas, theories, frameworks, and other intangible constructs. "Conception" includes activities such as brainstorming, theorizing, imagining, planning, and designing conceptual entities. It is characterized by the formulation of novel concepts, models, or solutions that exist primarily in the cognitive realm, rather than having a physical form.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4493,6 +4627,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="https://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object">
   <h3>conceptual object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://cidoc-crm.org/cidoc-crm/7.1.1/E28_Conceptual_Object</p>
+  <div class="comment">
+   <span class="markdown">This class comprises purely conceptual and/or intellectual entities without concrete materialization. They constitute results derived from human intellectual and creative activity, with or without the assistance of non-human agencies.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4523,6 +4660,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Conceptual_Work">
   <h3>conceptual work<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Conceptual_Work</p>
+  <div class="comment">
+   <span class="markdown">The intellectual and conceptual formulation of a work conceived as a coherent and unitary entity in itself. It is potentially susceptible to being realized in various expressions and/or manifestations.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -4569,6 +4709,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Conmemorative_Event">
   <h3>conmemorative event<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Conmemorative_Event</p>
+  <div class="comment">
+   <span class="markdown">The "Commemorative Event" class represents a significant occasion organized to honor, remember, or celebrate an important person, event, or milestone, such as the fiftieth anniversary of Picasso's death. A Commemorative Event can encompass a variety of activities and sub-events, including exhibitions, lectures, performances, and ceremonies.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4641,6 +4784,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="https://www.iflastandards.info/fr/frbr/frbroo#F11_Corporate_Body">
   <h3>corporate body<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://www.iflastandards.info/fr/frbr/frbroo#F11_Corporate_Body</p>
+  <div class="comment">
+   <span class="markdown">A "Corporate Body" refers to an organization or group of individuals that is recognized by law as a single entity, having its own legal identity separate from that of its members. This class encompasses entities such as corporations, associations, institutions, and government agencies, which can own property, enter into contracts, sue, and be sued in their own name. The corporate body operates through a structured governance system, typically including a board of directors or similar governing body, and is established for specific purposes such as business, education, or public service. The definition of a corporate body highlights its capacity to act as a unified entity in legal, financial, and operational contexts.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -4677,6 +4823,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Corporate_Body_Unit">
   <h3>corporate body unit<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Corporate_Body_Unit</p>
+  <div class="comment">
+   <span class="markdown">A functional unit within a corporate organization that specializes in specific tasks or functions, forming part of the corporation's overall structure. This unit may be a department, a division, or any other segment that has defined roles and responsibilities within the corporation. This class may include instances such as: Departamento de Pintura of the Museo del Prado or Vicerrectorado de Cultural of the Universidad de Málaga.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4716,6 +4865,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="https://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation">
   <h3>creation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://cidoc-crm.org/cidoc-crm/7.1.1/E65_Creation</p>
+  <div class="comment">
+   <span class="markdown">This class refers to the process or act of bringing an object (conceptual or material) into existence.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4821,6 +4973,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Cultural_Institution">
   <h3>cultural institution<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Cultural_Institution</p>
+  <div class="comment">
+   <span class="markdown">This class comprises institutions whose main role is the preservation, research, communication and exhibition of cultural productions, such as museums, art centers, foundations, libraries, and other cultural organizations.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4839,6 +4994,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Cultural_Work_Manifestation">
   <h3>cultural work manifestation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Cultural_Work_Manifestation</p>
+  <div class="comment">
+   <span class="markdown">The "Cultural Work Manifestation" class represents cultural objects and productions that fall outside the traditional Western concept of "artistic" objects. This class encompasses a wide range of cultural works that are significant in their own right but do not fit the specific connotations and constructions associated with the Western concept of art. Examples include traditional crafts, indigenous artifacts, cultural rituals, folkloric expressions, community-based creations, and other forms of cultural manifestations. The purpose of this class is to provide a more inclusive framework for classifying and understanding cultural productions that cannot be categorized as "artworks" within the Western paradigm.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4851,6 +5009,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Curation">
   <h3>curation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Curation</p>
+  <div class="comment">
+   <span class="markdown">The "Curation" class represents the process and practice of selecting, organizing, and presenting artworks and other cultural and material objects within an art exhibition. This includes all activities related to the conceptual aspects of creating a cohesive and meaningful exhibition, such as research, selection of works, thematic development, arrangement of artworks, and interpretative content.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4875,6 +5036,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Curator">
   <h3>curator<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Curator</p>
+  <div class="comment">
+   <span class="markdown">The "Curator" class represents individuals or entities responsible for the conceptualization of exhibition-curatorial projects. Curators play a crucial role in the selection of exhibition themes, development of curatorial discourse, selection of exhibitors and works, and interpretation of cultural objects. Curators may work independently or as part of a team within museums, galleries, or other cultural institutions.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4899,6 +5063,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Curatorial_Discourse">
   <h3>curatorial discourse<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Curatorial_Discourse</p>
+  <div class="comment">
+   <span class="markdown">This class refers to the narrative, critical thinking, and conceptual framework developed by curators to guide the creation, organization, and interpretation of an exhibition. This discourse encompasses the thematic, theoretical, and contextual elements that shape the presentation and understanding of the artworks or artifacts on display.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4923,6 +5090,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Curatorial_Work">
   <h3>curatorial project<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Curatorial_Work</p>
+  <div class="comment">
+   <span class="markdown">This class refers to the comprehensive conceptualization, planning, and organization of a cultural activity and production based on selection processes and narrative building. This project encompasses various actions and processes, including the conceptualization of the curatorial discourse and narrative to be unfolded, the selection of activities to be carried out or material objects to be displayed or recorded, coordination with participants, the design of the associated place (digital and/or physical), and the development of interpretative content.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4953,6 +5123,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Curatorial_Proposal">
   <h3>curatorial proposal<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Curatorial_Proposal</p>
+  <div class="comment">
+   <span class="markdown">Curatorial Proposal designates a propositional entity that sets out a curatorial project in a preliminary, projective form. It articulates the intended concept, scope, rationale, and curatorial approach—often including aims, selection principles, thematic lines, key references, and practical constraints—so that the project can be discussed, evaluated, negotiated, or commissioned prior to its realization.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -4977,6 +5150,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Date">
   <h3>date<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Date</p>
+  <div class="comment">
+   <span class="markdown">Temporal unit that does not imply duration. This class represents a specific point in time identified by a day, usually recorded as year, month, and day.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5049,6 +5225,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="https://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction">
   <h3>destruction<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://cidoc-crm.org/cidoc-crm/7.1.1/E6_Destruction</p>
+  <div class="comment">
+   <span class="markdown">The "Destruction" class represents the process and act of causing material objects to become damaged, dismantled, or rendered unusable. This includes any activities that lead to the degradation, disintegration, or obliteration of objects, whether intentional or accidental. The Destruction class is crucial for documenting and understanding the loss or alteration of material objects within various contexts, such as art conservation, historical documentation, and cultural heritage preservation.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5115,6 +5294,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Digital_Place">
   <h3>digital place<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Digital_Place</p>
+  <div class="comment">
+   <span class="markdown">This class comprehends a variety of digital environments such as digital platforms, websites, virtual reality (VR) environments, augmented reality (AR) spaces, and other online interfaces where technology facilitates interaction or presentation. In OntoExhibit, “digital places” also represent the digital environments where digital cultural activities, included digital exhibitions, take place. “Digital Places” may act as “Digital Sites”.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5145,6 +5327,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Digital_Platform">
   <h3>digital platform<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Digital_Platform</p>
+  <div class="comment">
+   <span class="markdown">The "Digital Platform" class represents large-scale technological infrastructures designed to host, manage, and support extensive digital interactions and activities. These platforms provide the backbone for a wide range of digital services and applications, facilitating complex operations and high-volume user engagement. Digital Platforms include large-scale social media networks, comprehensive cloud computing services, extensive content distribution networks, and other robust digital infrastructures that go beyond specific websites. In the art exhibitions domain, an example of a digital platform could be Europeana, which features a dedicated section for the presentation of digital exhibitions.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5163,6 +5348,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Digital_Site">
   <h3>digital site<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Digital_Site</p>
+  <div class="comment">
+   <span class="markdown">The "Digital Site" class represents specific, smaller-scale digital locations that are part of larger digital environments or platforms. These sites include individual web pages, subdomains, sections of websites, or specific interactive components within a broader digital platform. “Digital Sites” serve focused purposes within their larger digital contexts, such as hosting specific content -including digital exhibitions-, and facilitating targeted interactions, or providing specialized services.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -5205,6 +5393,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Discourse">
   <h3>discourse<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Discourse</p>
+  <div class="comment">
+   <span class="markdown">An articulated set of propositions that constitutes a discursive framework (conceptual, narrative, or argumentative) through which a phenomenon in the exhibition ecosystem is defined, justified, or interpreted.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5223,6 +5414,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Dispositif">
   <h3>dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Dispositif</p>
+  <div class="comment">
+   <span class="markdown">In OntoExhibit, the "Dispositif" class represents a category that encompasses entities functioning as elements for documenting exhibitions, communicating information about them, facilitating their understanding, expanding their ideas, and more. This class includes various types of dispositifs such as documentation tools, communication materials, mediation activities, interpretative aids, and expansion apparatuses. A dispositif serves to enhance engagement, comprehension, expansion, and dissemination of knowledge related to exhibitions, making it a crucial component in the art exhibition domain’s discursive and social practices. Although in OntoExhibit this class is specifically designed to codify information about exhibitions, it can also be applied to other events and objects.</span>
+  </div>
   <dl class="description">
    <dt>
     has sub-classes
@@ -5247,6 +5441,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="https://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution">
   <h3>dissolution<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://cidoc-crm.org/cidoc-crm/7.1.1/E68_Dissolution</p>
+  <div class="comment">
+   <span class="markdown">The "Dissolution" class represents the process and act of formally disbanding or terminating groups, institutions, organizations, or other entities.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5277,6 +5474,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Documentation_Dispositif">
   <h3>documentation dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Documentation_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Documentation Dispositif" class represents propositional objects used to document or register information, data, evidences, features, etc. with the aim of recording and preserving information about something. Classes that are susceptible to be documented are events, material objects, conceptual works, and places. Various propositional objects are typically employed for these purposes, including catalogs, records, inventories, databases, and other structured documentation systems that capture, organize, and store information. Additionally, other propositional objects can also serve this purpose, such as artworks, maps, diagrams, personal photograph albums, socially-built archives, etc., although they have not been primarily conceived or designed for this end. Therefore, this class links entities with those propositional objects that document them regardless their nature, genre, or typology.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5307,6 +5507,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="https://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event">
   <h3>E5_Event<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://cidoc-crm.org/cidoc-crm/7.1.1/E5_Event</p>
+  <div class="comment">
+   <span class="markdown">This class comprises any occurrence or happening that involves a change or a series of change over time. It encompasses specific and goal-oriented processes, such as creative and productive activities, that result in particular conceptual or material outcomes, and broader, organized and planned endeavors, such as exhibitions or conferences. They are characterized by their temporal and spatial dimensions.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -5370,6 +5573,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Educational_Institution">
   <h3>educational institution<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Educational_Institution</p>
+  <div class="comment">
+   <span class="markdown">This class comprises institutions whose main role is the education but that play a significant role in the art exhibition domain promoting, organizing or funding exhibitions.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5400,6 +5606,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Emotional_Reaction">
   <h3>emotional reaction<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Emotional_Reaction</p>
+  <div class="comment">
+   <span class="markdown">The "Emotional Reaction" class represents the emotional responses elicited by artworks, exhibitions, events, or cultural entities. This includes the range of emotions experienced by individuals, such as joy, sadness, anger, surprise, and awe, in response to artistic and cultural stimuli. Emotional Reactions are important for understanding the affective impact of cultural content on audiences and can provide valuable insights into audience engagement and reception.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5412,6 +5621,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="End_Of_Activity">
   <h3>end of activity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#End_Of_Activity</p>
+  <div class="comment">
+   <span class="markdown">The "End of Activity" class represents the concluding actions or events that mark the termination of a larger activity or event. This includes closing ceremonies, final speeches, concluding performances, or any other activities that signify the end of an event or activity.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5448,6 +5660,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Exact_Date">
   <h3>exact date<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Exact_Date</p>
+  <div class="comment">
+   <span class="markdown">The "Exact Date" class represents a specific point in time, defined with precision by a particular calendar date.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5460,6 +5675,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Executive_Position">
   <h3>executive position<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Executive_Position</p>
+  <div class="comment">
+   <span class="markdown">Executive Position is an intermediary (reified) spatio-temporal context that models the formal appointment through which an individual holds a leadership role within an organisation. It captures the fact that executive authority is institutionally defined and time-bound, enabling the association of a person, an organisation, and the relevant role or office with a specific time range (and, where applicable, with additional qualifiers such as mandate type, status, or scope of responsibility). In OntoExhibit, Executive Position covers cases in which an individual—such as a company CEO, the president of a professional association, or a museum director—embodies organisational authority and is accountable for strategic direction, decision-making, and institutional representation (including speaking on behalf of the organisation). By modelling these relations explicitly, the class supports the analysis of governance structures, institutional trajectories, and leadership networks within exhibition ecosystems.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5484,6 +5702,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Exhibition">
   <h3>exhibition<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Exhibition</p>
+  <div class="comment">
+   <span class="markdown">The "Exhibition" class represents a curated display of artworks, artifacts, or cultural items presented to the public in a specific venue, such as a museum, gallery, or cultural center. Exhibitions are organized to showcase collections, promote artistic expression, educate audiences, and engage the public with cultural heritage.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5514,6 +5735,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Exhibition_Curatorial_Project">
   <h3>exhibition curatorial project<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Exhibition_Curatorial_Project</p>
+  <div class="comment">
+   <span class="markdown">This class refers to the comprehensive conceptualization, planning, and organization of an art exhibition. This project encompasses various activities, including the conceptualization of the curatorial discourse, the selection of works to be displayed, the coordination with artists, the design and layout of the exhibition space, the development of interpretative content, and the formulation of audience engagement strategies.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5538,6 +5762,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Exhibition_Idea">
   <h3>exhibition idea<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Exhibition_Idea</p>
+  <div class="comment">
+   <span class="markdown">Exhibition Idea designates a preliminary propositional entity expressing an initial concept for an exhibition. It typically outlines a core intuition—such as a theme, question, or curatorial premise—and may include early indications of scope, potential works or materials, and intended modes of presentation. It functions as an early-stage articulation that can be developed into a curatorial proposal, refined through research and discussion, or abandoned.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5562,6 +5789,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Exhibition_Making">
   <h3>exhibition making<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Exhibition_Making</p>
+  <div class="comment">
+   <span class="markdown">The "Exhibition Making" class represents the comprehensive set of activities aimed at the effective production of an art exhibition. This encompasses the materialization of a curatorial and exhibition project, including the planning, coordination, and execution of all tasks necessary to bring the exhibition to life. Activities within Exhibition Making involve collaboration between curators, artists, designers, museographers, experts in visual branding, and other stakeholders to ensure the successful realization of the exhibition's vision.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5586,6 +5816,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Exhibitionary_Event">
   <h3>exhibitionary event<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Exhibitionary_Event</p>
+  <div class="comment">
+   <span class="markdown">The "Exhibitionary Event" class represents any event specifically organized to showcase artworks, artifacts, or cultural items to the public. These events can include art exhibitions, gallery openings, art fairs, and other similar occasions where the primary focus is the presentation and viewing of curated collections.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5640,6 +5873,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Expansion_Dispositif">
   <h3>expansion dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Expansion_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Expansion Dispositif" class represents propositional objects and activities used to expand the interpretation, readings, understanding, and overall comprehension of cultural activities and productions. These dispositifs include supplementary materials, interactive media, extended narratives, academic publications, discussion forums, and other materials and activities designed to deepen and broaden the audience's engagement and understanding of the cultural activities and productions. Additionally, other propositional objects and activities can also serve this purpose. Therefore, this class links cultural activities and productions with those propositional objects and activities that expand their understanding and interpretations, regardless of their nature, genre, or typology.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5694,6 +5930,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Foundation">
   <h3>foundation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Foundation</p>
+  <div class="comment">
+   <span class="markdown">The "Foundation" class represents the act of establishing institutions, organizations, groups, or other entities. In the context of art and cultural heritage, this includes the creation of museums, galleries, art collectives, cultural institutions, and similar entities. The foundation process involves legal, administrative, and/or organizational activities necessary to formally create and sustain these entities, ensuring they can operate and achieve their missions.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5796,6 +6035,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Government_Organization">
   <h3>government organization<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Government_Organization</p>
+  <div class="comment">
+   <span class="markdown">This class represents organizations that are part of the public sector and are responsible for implementing government policies, providing public services, and managing public resources. This class includes entities such as municipalities, ministries, regional governments, and other governmental bodies.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5832,6 +6074,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="https://cidoc-crm.org/cidoc-crm/7.1.1/E74_Group">
   <h3>group<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://cidoc-crm.org/cidoc-crm/7.1.1/E74_Group</p>
+  <div class="comment">
+   <span class="markdown">This class comprises human actors organized into groups, such as artist groups, who act collectively in their roles or activities within the art exhibition domain, but does not necessarily have a legal or corporate structure. This class has a different scope from the CIDOC-CRM E74 Group class, which also includes institutions. In the context of the OntoExhibit ontology, institutions constitute a distinct class as they are recognized to have a legal personality different from that of groups, with a more complex and formal structure, and specific functions that are regulated and acknowledged by society. See the “Institution” class as a subclass of “Corporate Body”.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -5880,6 +6125,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="headquarter_assignment">
   <h3>headquarter<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#headquarter_assignment</p>
+  <div class="comment">
+   <span class="markdown">Headquarter is an intermediary (reified) spatio-temporal context that links a collective actant (e.g., a group, community, or corporate body) to its principal physical operational site for a given time range. It represents headquarters information as historically contingent, allowing organisations to be associated with different main addresses or sites across successive periods rather than treating headquarters as a permanent attribute. In OntoExhibit, Headquarter is intended for cases—especially common in cultural organisations such as galleries—where the official physical base of operations changes over time. It should be distinguished from Location, which may record multiple simultaneous forms of organisational presence (including techno-digital places), and from Activity Place, which captures the wider set of places where an actant conducts activities beyond its principal site..</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5904,6 +6152,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Human_Actant">
   <h3>human actant<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Human_Actant</p>
+  <div class="comment">
+   <span class="markdown">This class comprises actants that are human beings.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -5979,6 +6230,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Institution">
   <h3>institution<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Institution</p>
+  <div class="comment">
+   <span class="markdown">This class comprises non-profit corporate bodies. In the context of the OntoExhibit ontology, it refers those institutions that play a significant role in the art exhibition domain in its multiple dimensions. Instances of this class are Museo del Prado, Google Art and Culture, Europeana, Library of Congress, etc.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6003,6 +6257,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="institutional_center_assignment">
   <h3>institutional center<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#institutional_center_assignment</p>
+  <div class="comment">
+   <span class="markdown">Is an intermediary (reified) spatio-temporal context that links a collective actant to a physical place functioning as an institutional facility within a defined time range. It captures the organisational role of a physical site (as part of an institution’s infrastructure) rather than treating the site itself as a type of institution. Instances of Institutional center support the modelling of institutions with multiple facilities and changing spatial infrastructures over time, enabling analysis of institutional footprints, expansions, relocations, and multi-site configurations.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6021,6 +6278,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Institutional_Communication_Dispositif">
   <h3>institutional communication dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Institutional_Communication_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Institutional Communication Dispositif" class represents official materials and events used by institutions to communicate and disseminate information about cultural activities and productions. These dispositifs function as authoritative sources of information, providing legitimacy and formal recognition to the messages conveyed. Examples include institutional press releases, official brochures, institutional websites, social media channels managed by the institution, newsletters, and other structured communication systems.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6033,6 +6293,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="institutional_context">
   <h3>institutional context<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#institutional_context</p>
+  <div class="comment">
+   <span class="markdown">is a subclass of Spatio-temporal context that groups intermediary (reified) constructs used to describe time-qualified institutional configurations and organisational circumstances. It is intended to model historically variable institutional arrangements—such as official locations, centres, and infrastructural presences—without reducing them to timeless attributes of the organisation or to the intrinsic nature of places. In OntoExhibit, Institutional context provides a shared pattern for representing how collective actants are situated and structured across time through formal, institutionally recognised relations to physical and/or techno-digital places.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6051,6 +6314,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Institutional_Documentation_Dispositif">
   <h3>institutional documentation dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Institutional_Documentation_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Institutional Documentation Dispositif" class represents official documentation tools and mechanisms used by institutions to record, organize, and legitimize information about events, activities, and objects. These dispositifs function as authoritative sources of information, providing legitimacy and formal recognition to the documented entities. Examples include official records, registries, institutional databases, and certified archival materials. The institutional nature of these dispositifs underscores their role in establishing and maintaining authoritative narratives and histories within the institutional framework.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6063,6 +6329,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Institutional_Expansion_Dispositif">
   <h3>institutional expansion dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Institutional_Expansion_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Institutional Expansion Dispositif" class represents official materials and activities used by institutions to expand the interpretations, readings, discourses, ideas, and understanding of cultural events and objects. These dispositifs function as authoritative mechanisms for broadening and deepening the understanding and engagement with cultural content. Examples include institutional publications, official social media campaigns, lectures, academic conferences, and collaborative projects with other cultural or educational institutions. The institutional nature of these dispositifs underscores their role in delivering institutionally legitimized means for enriching and expanding the cultural narrative and intellectual engagement.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6075,6 +6344,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Institutional_Mediation_Dispositif">
   <h3>institutional mediation dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Institutional_Mediation_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Institutional Mediation Dispositif" class represents official materials and activities used by institutions to facilitate the interpretation, understanding, and engagement with cultural activities and productions. These dispositifs function as authoritative mechanisms for guiding public interaction with cultural content, providing structured and sanctioned methods of mediation. Examples include institutional educational programs, guided tours, official exhibition catalogs, interpretive panels, interactive displays, and workshops organized by the institution. The institutional nature of these dispositifs underscores their role in institutionally approved interpretations and educational content to the public.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6111,6 +6383,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Interpretation">
   <h3>interpretation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Interpretation</p>
+  <div class="comment">
+   <span class="markdown">An interpretive proposition: a statement that assigns meaning or a reading to an entity, set, or situation, potentially coexisting with alternative interpretations.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6135,6 +6410,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Interpretation_Assignment">
   <h3>interpretation assignment<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Interpretation_Assignment</p>
+  <div class="comment">
+   <span class="markdown">The "Interpretation Assignment" class represents the act or process of assigning a specific interpretation, meaning, or analysis to an entity or work. This class encompasses various activities involved in the contextualization, explanation, and understanding of an entity's significance, including the assignment of thematic, historical, cultural, or conceptual interpretations. Interpretation Assignments can be applied to artworks, texts, events, or any other entities that require deeper analysis and understanding.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6297,6 +6575,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Location">
   <h3>location<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Location</p>
+  <div class="comment">
+   <span class="markdown">Location is an intermediary (reified) spatio-temporal context that links a collective actant (e.g., a group, community, or corporate body) to the place(s) where it is situated during a specific time range. It is designed to represent organisational location as historically variable rather than as a fixed attribute, allowing multiple location records to coexist for the same entity across different periods. In OntoExhibit, Location is primarily used to connect collective actants to geographical territories or techno-digital places that function as their institutional points of presence (for example, a headquarters city and an official website or platform). This makes it possible to describe complementary forms of location—physical and techno-digital—without conflating them with broader activity geographies. In contrast to Place of Activity, which captures the distributed set of places where an actant operates professionally, Location captures where an organisation is formally situated in a given period; for individual actants, the analogous biographical construct is Residency.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6345,6 +6626,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Material_Object">
   <h3>material object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Material_Object</p>
+  <div class="comment">
+   <span class="markdown">The "Material Object" class encompasses entities that have a material existence in the world, either as physical objects or as formal realizations or materializations of ideas, concepts, etc. This class includes both physical and digital entities, as well as entities that exist solely as formal expressions, such as a poem or a melody. Material Objects are characterized by their tangible or representational form, making them accessible to perception, interaction, or representation.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6387,6 +6671,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Mediation_Dispositif">
   <h3>mediation dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Mediation_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Mediation Dispositif" class represents propositional objects and activities used to facilitate the interpretation, understanding, and engagement with cultural activities and productions. These dispositifs typically include educational materials, guided tours, interactive displays, workshops, and other structured systems or tools that mediate the relationship between the audience and the cultural activity and production. Additionally, other propositional objects and activities can also serve this purpose. Therefore, this class links cultural activities and productions with those propositional objects and activities that mediate with the audience, regardless of their nature, genre, or typology.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6441,6 +6728,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Membership">
   <h3>membership<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Membership</p>
+  <div class="comment">
+   <span class="markdown">Membership is an intermediary (reified) spatio-temporal context that models the relationship by which an individual or collective human actant participates as a member of a group or corporate body. It represents membership as historically contingent rather than permanent, allowing the association of the member and the membership organisation with a defined time range and, where relevant, with additional qualifying terms (e.g., type of membership, status, or conditions of participation). In OntoExhibit, Membership supports the analysis of institutional and collective engagement by making membership explicit, queryable, and comparable across different organisations and periods. This class is broader than foaf:membershipClass, which constrains membership organisations to instances of foaf:Group. In OntoExhibit, the category of Collective Human Actant encompasses both groups and corporate bodies, and either may function as a membership organisation; Membership therefore provides a more flexible pattern aligned with exhibition ecosystems and their heterogeneous organisational forms.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6537,6 +6827,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Narrative_Structure">
   <h3>narrative structure<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Narrative_Structure</p>
+  <div class="comment">
+   <span class="markdown">An ordering structure that organizes an intellectual work through discursive and/or narrative segmentation (e.g., chapters, sections, thematic units) and their relations. It frames how propositions are developed, distributed, or accumulated across the work’s parts.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6561,6 +6854,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Narrative_Thematic_Unit">
   <h3>narrative/discursive unit<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Narrative_Thematic_Unit</p>
+  <div class="comment">
+   <span class="markdown">The discursive and/or narrative parts through which an intellectual work is articulated. This is an explicit segmentation that may develop one or more propositions.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6603,6 +6899,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Natural_Object">
   <h3>natural object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Natural_Object</p>
+  <div class="comment">
+   <span class="markdown">The "Natural Object" class represents entities that occur naturally in the environment. These objects are not created by humans or technological processes, and include a wide range of naturally occurring materials and formations such as rocks, minerals, plants, fossils, and other elements found in nature. Natural objects can be part of art exhibitions. They may be exhibited for their intrinsic beauty, scientific interest, or cultural significance. Therefore, they can also be integral components of artworks or art installations.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6627,6 +6926,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Non_Human_Actant">
   <h3>non-human actant<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Non_Human_Actant</p>
+  <div class="comment">
+   <span class="markdown">A non-human entity that plays an active role in the realm of art exhibitions. This may include biological entities, such as animals and plants, as well as inanimate objects, that actively participate in the creation, interpretation, or presentation of artworks and cultural productions. This class is essential for addressing the participation of non-human entities that affect or contribute to artistic dynamics in significant ways. For example, an installation may include living plants, where their biological processes (such as growth, photosynthesis, and response to light stimuli) are monitored and used to alter other elements of the installation, such as lighting, sounds, or visual projections. Sensors placed on the plants detect changes in their environment (such as humidity, temperature, and light) and these data trigger modifications in the installation, creating an environment that is co-created by the biological activity of the plants. This class does not comprise technological entities which, in the context of the OntoExhibit ontology, are considered to inherently carry a human component in their design, conceptualization, and execution. See “Techno-Actant” class.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6639,6 +6941,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Non-Institutional_Communication_Dispositif">
   <h3>non-institutional communication dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Non-Institutional_Communication_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Non-Institutional Communication Dispositif" class represents unofficial materials and events used to communicate and disseminate information about cultural activities and productions. These dispositifs often include contributions from individuals, artists, independent groups, and grassroots organizations. They may reflect personal perspectives or community-driven initiatives. Examples include personal blogs, independent social media posts, artist statements, community newsletters, zines, and other forms of informal communication. The non-institutional nature of these dispositifs underscores their role in offering diverse and decentralized forms of communication within the cultural sector.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6651,6 +6956,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Non-Institutional_Documentation_Dispositif">
   <h3>non-institutional documentation dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Non-Institutional_Documentation_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Non-Institutional Documentation Dispositif" class represents unofficial documentation tools and mechanisms used to record and interpret information about events, activities, and objects. These dispositifs often include socially constructed materials, contributions from artists, and other informal or non-official sources. They may reflect personal perspectives, creative interpretations, or community-generated content, providing alternative narratives and insights that complement or challenge institutional records. Examples include personal archives, artist's notebooks, community-led documentation projects, and other forms of grassroots or independent documentation.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6663,6 +6971,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Non-Institutional_Expansion_Dispositif">
   <h3>non-institutional expansion dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Non-Institutional_Expansion_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Non-Institutional Expansion Dispositif" class represents informal tools, materials, and activities used to expand the interpretations, readings, discourses, ideas, and understanding of cultural events or objects. These dispositifs are often created and distributed by individuals, artists, independent groups, or grassroots organizations. They provide alternative and diverse methods for broadening and deepening engagement with cultural content, reflecting personal perspectives, creative interpretations, or community-driven initiatives. Examples include independent publications, artist-led discussions, community workshops, blogs, zines, and other informal media. The non-institutional nature of these dispositifs underscores their role in offering varied and decentralized forms of expanding cultural narratives and intellectual engagement.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6675,6 +6986,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Non-Institutional_Mediation_Dispositif">
   <h3>non-institutional mediation dispositif<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Non-Institutional_Mediation_Dispositif</p>
+  <div class="comment">
+   <span class="markdown">The "Non-Institutional Mediation Dispositif" class represents informal tools, materials, and activities used to facilitate the interpretation, understanding, and engagement with cultural activities and productions. These dispositifs are often created and distributed by individuals, artists, independent groups, or grassroots organizations. They provide alternative and diverse methods of mediation that reflect personal perspectives, creative interpretations, or community-driven initiatives. Examples include artist-led workshops, independent guided tours, personal blogs, community discussion groups, zines, and other forms of informal mediation. The non-institutional nature of these dispositifs underscores their role in offering varied and decentralized forms of mediation that complement or challenge official narratives.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6687,6 +7001,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Non_Produced_Material_Object">
   <h3>non-produced material object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Non_Produced_Material_Object</p>
+  <div class="comment">
+   <span class="markdown">The Non-Produced Material Object class represents entities that have a material existence but have not been intentionally created or manufactured. These objects occur naturally or exist independently of production. Non-Produced Material Objects include natural artifacts and biological organisms without deliberate intervention or creation.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6705,6 +7022,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Non_Propositional_Object">
   <h3>non-propositional object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Non_Propositional_Object</p>
+  <div class="comment">
+   <span class="markdown">The "Non-Propositional Object" class represents material entities that do not primarily serve as realizations of ideas, concepts, or conceptual works. Unlike Propositional Objects, Non-Propositional Objects are not characterized by their semantic nature. Instead, they exist primarily for their physical or digital properties, or utilitarian functions. These objects can include items and devices whose primary significance is not tied to conveying meaning or expressing concepts or ideas.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6729,6 +7049,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Open_Day">
   <h3>open day<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Open_Day</p>
+  <div class="comment">
+   <span class="markdown">The "Open Day" class represents an event where an institution, such as a museum, gallery, or cultural organization, opens its doors to the public, often free of charge, to provide access to exhibitions, facilities, and special activities. Open Days are designed to engage the community, attract new visitors, and provide educational and recreational opportunities. These events typically include guided tours, workshops, performances, and interactive sessions to enhance the visitor experience.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6765,6 +7088,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="ordering_principle">
   <h3>ordering principle<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#ordering_principle</p>
+  <div class="comment">
+   <span class="markdown">Ordering Principle designates an abstract principle that governs how elements are ordered, sequenced, grouped, or prioritized in an intellectual work or exhibition-related articulation (e.g., chronological, thematic, geographic, typological, algorithmic). It expresses the logic of ordering, independently of the particular structure that realizes it.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6789,6 +7115,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Organization_Schema">
   <h3>ordering structure<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Organization_Schema</p>
+  <div class="comment">
+   <span class="markdown">An abstract organization schema that specifies how parts, units, or elements are arranged and related within an intellectual work or exhibition-related articulation. It provides an explicit pattern of ordering (e.g., sequences, groupings, hierarchies, modules) through which content can be structured, independently of the media or dispositifs through which it may later be realized.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -6909,6 +7238,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person">
   <h3>person<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://cidoc-crm.org/cidoc-crm/7.1.1/E21_Person</p>
+  <div class="comment">
+   <span class="markdown">This class comprises real individual human beings who live or are assumed to have lived.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -6969,6 +7301,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Physical_Site">
   <h3>physical site<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Physical_Site</p>
+  <div class="comment">
+   <span class="markdown">This class represents physical sites.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -7000,7 +7335,7 @@ This section provides details for each class and property defined by OntoExhibit
   <h3>place<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://cidoc-crm.org/cidoc-crm/7.1.1/Place</p>
   <div class="comment">
-   <span class="markdown">Within OntoExhibit, Place functions as a general umbrella category that supports more specific, role-oriented subclasses. In particular, Site captures places in their capacity as exhibition venues (i.e., where an exhibition is presented to audiences), while Process_Locus captures places in their capacity as loci of cultural processes (e.g., where conception, curation, creation, foundation, dissolution, or destruction are situated). A given place may play none, one, or multiple such roles depending on the relationships asserted in the knowledge graph; therefore, these subclasses should not be read as fixed “types of place,” but as analytically meaningful contextualizations of place within exhibition ecosystems.</span>
+   <span class="markdown">Place represents any spatial or locative context in which events, practices, or cultural processes are situated. It covers a broad spectrum of locations, ranging from geopolitical entities (e.g., countries, regions, cities) and built environments (e.g., buildings, rooms, exhibition halls) to techno-digital environments (e.g., online platforms, virtual spaces, networked interfaces). The class is intended to support the description of the multiple spatial conditions under which art is produced, curated, mediated, displayed, and experienced. Place is broader than CIDOC CRM’s E53 Place, which is restricted to physical space. OntoExhibit maintains compatibility with CRM by allowing physical places to align with E53 where appropriate, while also accommodating techno-digital places that fall outside CRM’s strictly physical scope.</span>
   </div>
   <dl class="description">
    <dt>
@@ -7026,6 +7361,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Planned_Activity">
   <h3>planned activity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Planned_Activity</p>
+  <div class="comment">
+   <span class="markdown">The "Planned Activity" class represents any type of event that is systematically scheduled and organized ahead of time, often of significant interest, that takes place at a specific time and location. This includes a wide range of activities such as exhibitions, performances, lectures, workshops, openings, and other cultural or social gatherings. These activities are characterized by their temporality, purpose, and the involvement of participants or an audience. They are organized to achieve specific objectives, such as education, entertainment, community engagement, or celebration.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7056,6 +7394,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Preliminary_Ideas">
   <h3>preliminary ideas<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Preliminary_Ideas</p>
+  <div class="comment">
+   <span class="markdown">The "Preliminary Ideas" class represents the initial and preliminary concepts, thesis, arguments, hypothesis… that precede and ground the conception of a complete work. This can materialize as drafts, sketches, briefings, provisional reports, and other preparatory documents and artifacts. Preliminary Ideas serve as the foundational elements and exploratory steps in the conceptual, intellectual, and creative process, capturing the early stages of ideation, planning, and conceptual development. This class enables the analysis of changes and modifications experienced by works during their conceptualization process.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7086,6 +7427,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Preliminary_Propositional_Object">
   <h3>preliminary propositional object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Preliminary_Propositional_Object</p>
+  <div class="comment">
+   <span class="markdown">The "Preliminary Propositional Object" class represents entities that capture initial ideas, drafts, sketches, and other preliminary forms of a conceptual work. These objects are characterized by their formative nature, documenting the early stages of the creative or planning process. Preliminary Propositional Objects are crucial for understanding the development and evolution of a work, as they provide insights into the creator's thought process, experimentation, and conceptual groundwork. Examples include draft manuscripts, rough sketches, conceptual diagrams, provisional reports, and brainstorming notes.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7110,6 +7454,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Press_Event">
   <h3>press conference<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Press_Event</p>
+  <div class="comment">
+   <span class="markdown">The "Press Event" class represents a media-focused event organized to provide information, announcements, or updates to journalists, media representatives, and other stakeholders. This includes press conferences, media briefings, and other events specifically designed to engage the press and provide them with the necessary materials and information to report on exhibitions, new acquisitions, significant developments, or special events.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7134,6 +7481,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/E7_Activity#process">
   <h3>process<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E7_Activity#process</p>
+  <div class="comment">
+   <span class="markdown">Process comprises transformative activities—coherent sequences of actions or operations—carried out by one or more actants, typically exhibiting an internal structure (e.g., phases, tasks, iterations) and an appreciable duration. A process mobilizes resources, techniques, and collaborations toward an intended purpose, producing state changes and potentially generating material or conceptual outcomes.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7152,6 +7502,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="process_locus">
   <h3>process locus<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#process_locus</p>
+  <div class="comment">
+   <span class="markdown">Process Locus designates a place understood in its role as the spatial (territorial or techno-digital) locus of a process relevant to curation and/or exhibition making and its associated chains of cultural production. Rather than defining a place by its intrinsic nature (e.g., territory, building, platform), this class captures a contextual function: a place becomes a Process Locus when it is referenced as the location where specific processes occur—such as conception, curation, creation, foundation, dissolution, or destruction—within the broader ecology of exhibitions, artworks, institutions, and cultural agents. In OntoExhibit, Process Locus is introduced to make explicit the often distributed and multi-sited character of exhibition work. It enables the ontology to distinguish between the frontstage geography of display (e.g., venues/sites where exhibitions are presented) and the backstage geography of production and organization (e.g., where curatorial, creative, and institutional processes are carried out, which may be remote, outsourced, or platform-based). A single place (for instance, a city, a workshop, a museum building, or an online environment) may function as a Process Locus in some contexts and not in others; therefore, Process Locus should not be interpreted as a permanent subtype of place, but as a role inferred from its participation in process-location relations. By providing a shared conceptual handle over heterogeneous place types, Process Locus supports comparative analysis across cases (e.g., identifying off-site or techno-digital loci of conception and curation, mapping distributed production networks, and measuring degrees of spatial decoupling between production and exhibition). This makes it particularly useful for exhibition studies and curatorial research focused on infrastructures, labor, and the spatial politics of cultural production.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7176,6 +7529,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Produced_Material_Object">
   <h3>produced material object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Produced_Material_Object</p>
+  <div class="comment">
+   <span class="markdown">The "Produced Material Object" class represents material objects that have been intentionally brought into material existence or manufactured through human effort or technological processes, with potential collaboration of non-human agents. These objects encompass a wide range of items, including physical artifacts, digital products, and formal expressions of ideas or concepts. Produced Material Objects are characterized by their origin in a production process, which can involve artistic creation, industrial manufacturing, digital rendering, computational programming, or other forms of materialization.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7230,6 +7586,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="https://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production">
   <h3>production<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://cidoc-crm.org/cidoc-crm/7.1.1/E12_Production</p>
+  <div class="comment">
+   <span class="markdown">The "Production" class represents the activities involved in the creation and fabrication of material objects.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7260,6 +7619,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Professional_Association">
   <h3>professional association<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Professional_Association</p>
+  <div class="comment">
+   <span class="markdown">An organizational entity that unites individuals from a specific profession with the aim of supporting continuous professional development, and representing the interests of its members in the public sphere. Examples of professional associations relevant in the art exhibition domain are “Asociación de Artistas Visuales (AAV)” or “Asociación de Galerías de Arte de Andalucía (AGAA).</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7272,6 +7634,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="professional_context">
   <h3>professional context<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#professional_context</p>
+  <div class="comment">
+   <span class="markdown">Professional context is a subclass of Spatio-temporal context used to model time-qualified relations through which actants participate in professional, institutional, and organisational environments. It groups intermediary constructs that connect people or collectives to places of activity, memberships, affiliations, representative roles, or executive positions, capturing how these relations evolve across time and (when relevant) across space. By reifying these links as contextual records, Professional context supports analyses of careers, networks, institutional trajectories, and the shifting infrastructures through which cultural work is organised within exhibition ecosystems.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7326,6 +7691,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Proposition">
   <h3>proposition<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Proposition</p>
+  <div class="comment">
+   <span class="markdown">This class refers to a semantic, intellectual, or conceptual element that articulates specific ideas. It can take the form of assertions, theses, hypotheses, arguments, interpretations, among others. Propositions are inherently part of "propositional entities." They can be developed through “conceptual works”, conveyed and embodied in propositional objects, and assigned to any entity.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7356,6 +7724,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Proposition_Assignment">
   <h3>proposition assignment<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Proposition_Assignment</p>
+  <div class="comment">
+   <span class="markdown">The "Proposition Assignment" class represents the action of assigning a proposition, which can include interpretations, valuations, critical assessment, or other similar statements to an entity. This process involves linking specific propositions to artworks, exhibitions, objects, or any relevant subjects, thereby providing additional context, meaning, or evaluation. Proposition assignments are essential for enriching the understanding and appreciation of entities within the domain, facilitating scholarly analysis, and supporting curatorial decisions.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7386,6 +7757,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="propositional_activity">
   <h3>propositional activity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#propositional_activity</p>
+  <div class="comment">
+   <span class="markdown">Propositional Activity designates a planned activity whose defining component includes one or more propositions articulated as its propositional content. It covers activities in which statements, arguments, interpretations, or discursive framings are central to what the activity is and does, enabling them to be related to "Proposition" via "conveys" within OntoExhibit.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7404,6 +7778,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Propositional_Entity">
   <h3>propositional entity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Propositional_Entity</p>
+  <div class="comment">
+   <span class="markdown">The "Propositional Entity" class represents any entity, whether conceptual, material, or activity-based, that conveys, embodies, or entails some form of proposition. This proposition can be intentional and explicit or implicit. Propositional Entities encompass a wide range of forms, including artworks, exhibitions, catalogs, literary works, scholarly works, performances, lectures, conferences, and other entities that communicate or represent specific meanings, concepts, or messages. These entities are characterized by their capacity to convey and embody propositional content, which may involve thesis, hypotheses, interpretations, critical discussions, etc.</span>
+  </div>
   <dl class="description">
    <dt>
     has sub-classes
@@ -7428,6 +7805,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Propositional_Object">
   <h3>propositional object<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Propositional_Object</p>
+  <div class="comment">
+   <span class="markdown">The "Propositional Object" class represents material entities that are realizations of ideas, concepts, or conceptual works. Propositional Objects are characterized by their semantic nature. They convey meaning, express intellectual concepts, or articulate discourses. They can take the form of physical objects, formal expressions, or digital entities.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7470,6 +7850,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Publication">
   <h3>publication<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Publication</p>
+  <div class="comment">
+   <span class="markdown">This class comprises the processes and activities of publishing. This process involves various stages, including the creation, editing, design, printing or digital formatting. Publication brings into material existence propositional objects in the form of books, journals, articles, reports, catalogs, brochures, and digital content such as e-books or online articles.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -7524,6 +7907,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Representation">
   <h3>representation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Representation</p>
+  <div class="comment">
+   <span class="markdown">Representation is an intermediary (reified) spatio-temporal context that models the formal relationship in which an organisation—typically an art gallery—represents an artist or an artists’ collective. It captures the fact that representation is historically contingent and may change over time, enabling the association of the represented actant and the representing organisation with a specific time range (and, when relevant, with particular territories or market contexts). In OntoExhibit, Representation supports the analysis of professional networks and institutional mediation, covering activities such as promotion, market brokerage (e.g., sales), and the coordination of exhibition opportunities, without reducing these complex dynamics to a simple, timeless link between artist and gallery.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7560,6 +7946,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Place_Of_Residence">
   <h3>residency<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Place_Of_Residence</p>
+  <div class="comment">
+   <span class="markdown">Residency is an intermediary (reified) spatio-temporal context that links a person to a place where they reside for a given time range. It is designed to represent residential history as a sequence of time-qualified relations rather than as a fixed attribute, allowing multiple residences to be recorded for the same individual across different periods. By capturing when and where a person lived, Residency supports the analysis of biographical trajectories, mobility patterns, and the spatial distribution of life contexts over time.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7626,6 +8015,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Scholarly_Educational_Activity">
   <h3>scholarly-educational activity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Scholarly_Educational_Activity</p>
+  <div class="comment">
+   <span class="markdown">The "Academic-Educational Activity" class represents activities designed to provide educational or scholarly value to participants. These activities are aimed at enhancing knowledge, fostering learning, and promoting academic inquiry within the context of art exhibitions and cultural events. Academic-Educational Activities include workshops, lectures, seminars, guided tours, educational programs, and other instructional sessions intended for students, educators, researchers, and the general public.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7644,6 +8036,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="secondary_center_assignment">
   <h3>secondary center<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#secondary_center_assignment</p>
+  <div class="comment">
+   <span class="markdown">This class refers to a subsidiary or additional facility of an institution, distinct from its main headquarters. This center may be the place of activities related to the institution's mission, providing supplementary services, exhibitions, or resources. It usually serves as an extension of the institution, enhancing its reach and capabilities. Example: "The Villanueva building serve as the headquarters of the Museo del Prado, whereas the Casón del Buen Retiro serves as Secondary Center."</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7692,6 +8087,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Site">
   <h3>site<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Site</p>
+  <div class="comment">
+   <span class="markdown">Represents any defined area that facilitates specific art-related activities, encompassing both physical and non-physical (digital or virtual) environments, focusing on the use and significance of each place as a venue for events, interactions, or displays. This class includes buildings, natural landscapes, outdoor areas, as well as specific digital sites that are part of larger digital platforms or virtual environments.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7722,6 +8120,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Social_Digital_Place">
   <h3>social digital place<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Social_Digital_Place</p>
+  <div class="comment">
+   <span class="markdown">The "Social Digital Place" class represents digital environments designed to enable social interactions, communication and social engagement among users. Social Digital Places include social media platforms, online forums, and other digital venues that enable users to connect, share, and interact in a social context. This class is of significant cultural relevance, not only due to its frequent use by cultural actors, but also due to the growing tendency to use these spaces as venues for digital exhibitions. Example includes Museo del Prado’s TikTok or exhibitions curated and displayed in Instagram.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7734,6 +8135,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Social_Interaction">
   <h3>social interaction<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Social_Interaction</p>
+  <div class="comment">
+   <span class="markdown">The "Social Reaction" class represents the interactions and responses that occur on social media platforms in relation to artworks, exhibitions, events, or cultural entities. This includes likes, comments, shares, mentions, and other forms of engagement that reflect the public's reaction and interaction with the content. Social Reactions provide valuable insights into audience perceptions, trends, and the overall impact of the cultural content within the social media landscape.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7746,6 +8150,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Social_Publication">
   <h3>social publication<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Social_Publication</p>
+  <div class="comment">
+   <span class="markdown">The "Social Publication" class represents forms of digital communication whose content it designed to be shared on social media plataforms, and to be public or semi-public consumed. This includes posts, TikTok vídeos, Instagram stories, etc. Social Publications are characterized by their interactive nature, often encouraging engagement, feedback, and sharing among users. They play a significant role in contemporary communication, social interaction, and digital culture.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7758,6 +8165,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Spatial_Unit">
   <h3>spatial unit<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Spatial_Unit</p>
+  <div class="comment">
+   <span class="markdown">Represents a specific segment or part of a larger spatial structure that serves a distinct function or holds significance within the overall environment. This class includes rooms, halls, wings, or any other designated areas within buildings, complexes, or other types of larger spaces. For example: the “Sala Noble” (spatial unit) is the spatial unit of Palacio de Villalón (Building – physical site), which is the headquarters of Museo Carmen Thyssen (Museum – cultural institution).</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7782,6 +8192,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="spatio-temporal_context">
   <h3>spatio-temporal context<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#spatio-temporal_context</p>
+  <div class="comment">
+   <span class="markdown">Spatio-temporal context is a superclass for intermediary (reified) constructs that qualify relationships by explicitly attaching them to a time range and, when relevant, to a spatial setting or other contextual parameters. It is used to model situations in which a link between an actant (person, collective, institution) and an entity such as a place, an organization, a role, or a position must be expressed as historically variable rather than fixed. Instances of this class therefore function as contextual “records” that capture how a relationship holds during a specific period (and potentially in specific locations), supporting the representation of change over time (e.g., moving residence, shifting memberships, evolving professional affiliations, or relocating areas of activity). In OntoExhibit, Spatio-temporal context provides a shared modeling pattern for biographical and professional/institutional histories—such as Residency, Place of Activity, Membership, Representation, Executive Position, and Affiliation—by separating the stable entities involved (actants, places, organizations) from the time-qualified contexts that connect them. This design enables robust querying and comparative analysis of trajectories, networks, and spatial distributions across the exhibition ecosystem without conflating entities with the temporalized circumstances in which their relations are enacted.</span>
+  </div>
   <dl class="description">
    <dt>
     has sub-classes
@@ -7818,6 +8231,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Techno-Actant">
   <h3>techno-actant<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Techno-Actant</p>
+  <div class="comment">
+   <span class="markdown">A technological entity or digital and/or computational object that actively participates in the artistic process or in the conceptualization, design, development, presentation, or interpretation of exhibitions. It may include software, hardware, and automated systems. The incorporation of this class allows OntoExhibit to capture and analyze the integration and impact of advanced technologies, especially AI systems in their multiple modalities, providing a framework to understand how these technological entities modify and affect the realm of artistic exhibitions and curatorial projects. Unlike the Non-Human Actant class, in the context of the OntoExhibit ontology, it is considered that technological entities and computational and/or digital objects inherently enclosed a human component in their design, conceptualization, development, and execution, and therefore cannot be considered non-human entities in a strict sense. This class is included without prejudice to the fact that further discussion about the role these entities play in the field of artistic and curatorial production and creation, and their agency value (their possibilities and their limits) must be developed in the coming years.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7842,6 +8258,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Techno-Place">
   <h3>techno-place<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Techno-Place</p>
+  <div class="comment">
+   <span class="markdown">Represents any virtual or digital environment that is created, enhanced, or enabled through technological means. In OntoExhibit, the techno-place class is a comprehensive class that comprises the variety of digital and/or technological spaces where the digital and/or computational activities of agents within the art exhibition domain are carried out.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7896,6 +8315,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Territorial_Entity">
   <h3>territorial entity<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Territorial_Entity</p>
+  <div class="comment">
+   <span class="markdown">This class represents any defined area distinguished by administrative or geopolitical boundaries. This class encompasses a wide range of entities from cities and municipalities to states and countries. Each instance of a Territorial Entity is characterized by its governance structures and the legal and political recognition it holds. This class is crucial for analyzing and documenting the geopolitical movement of agents and objects, and for analyzing the influence and interactions of various levels of governance in cultural contexts.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7953,6 +8375,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Thesis">
   <h3>thesis<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Thesis</p>
+  <div class="comment">
+   <span class="markdown">A proposition formulated as a thesis: a defendable statement that articulates a central claim or argument within critical, curatorial, scholarly, or institutional discourse.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7965,6 +8390,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Time_Range">
   <h3>time range<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Time_Range</p>
+  <div class="comment">
+   <span class="markdown">This class represents a span of time characterized by a specific start date and end date, capturing the duration between two defined points tin time.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -7989,6 +8417,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Time_Span">
   <h3>time-span<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Time_Span</p>
+  <div class="comment">
+   <span class="markdown">The "Time Span" class represents a continuous duration or interval of time. This class is used to capture the temporal extent of events, activities, processes, or any phenomena that occur over a period of time. A Time Span can range from very short durations, such as seconds or minutes, to extended periods, such as years, decades, or even millennia.</span>
+  </div>
   <dl class="description">
    <dt>
     is equivalent to
@@ -8055,6 +8486,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Triennial">
   <h3>triennial<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Triennial</p>
+  <div class="comment">
+   <span class="markdown">The "Triennial" class represents a large-scale exhibition event that occurs every three years, showcasing a curated selection of artworks, often from a diverse range of artists, disciplines, and cultural backgrounds. Triennials are significant events in the art world, designed to present contemporary art, foster international cultural exchange, and engage with global artistic trends. These events typically span several months and include various programs such as exhibitions, performances, panel discussions, workshops, and educational activities.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -8091,6 +8525,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Vernissage">
   <h3>vernissage<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Vernissage</p>
+  <div class="comment">
+   <span class="markdown">The "Vernissage" class represents the private viewing or preview of an art exhibition, typically held before the official opening to the public. Vernissages are often exclusive events attended by invited guests such as artists, critics, collectors, and other VIPs. These events provide an opportunity for attendees to view the artworks in an intimate setting, often accompanied by speeches, performances, or social gatherings that celebrate the launch of the exhibition.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -8181,6 +8618,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Visual_Organization_Schema">
   <h3>visual organization schema<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Visual_Organization_Schema</p>
+  <div class="comment">
+   <span class="markdown">An ordering structure that specifies visual and spatial patterns of arrangement (e.g., layout logics, visual hierarchies, grids, pathways, alignments, groupings) through which content is made legible or navigable. It captures the schema of visual organization independently of any particular material installation or interface.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -8217,6 +8657,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Website">
   <h3>website<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Website</p>
+  <div class="comment">
+   <span class="markdown">The "Website" class represents a collection of web pages and related content identified by a common domain name and published on at least one web server. In the art exhibition domain, examples include museums' websites that host digital exhibitions and other digital resources related to exhibitions, as well as websites specifically designed for an exhibition, such as the website of the digital exhibition Iconoclash (2023).</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -8229,6 +8672,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="Work_Manifestation">
   <h3>work manifestation<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#Work_Manifestation</p>
+  <div class="comment">
+   <span class="markdown">The "Work Manifestation" class represents a specific realization or embodiment of an intellectual, literary, cultural or artistic work. This can include physical objects, formal expressions, or digital entities that materialize the work in a specific form, making it accessible to audiences.</span>
+  </div>
   <dl class="description">
    <dt>
     has super-classes
@@ -9006,6 +9452,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="conveys">
   <h3>conveys<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#conveys</p>
+  <div class="comment">
+   <span class="markdown">Conveys relates a propositional entity to one or more propositions that it bears as propositional content.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -9160,6 +9609,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="embodies">
   <h3>embodies<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#embodies</p>
+  <div class="comment">
+   <span class="markdown">Embodies relates a propositional object to a proposition when that proposition is materially instantiated in the object (physically or computationally), i.e., realized in its structure, configuration, or operation.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -10512,6 +10964,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="hasDigitalAnalogous">
   <h3>has Digital Analogous<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#hasDigitalAnalogous</p>
+  <div class="comment">
+   <span class="markdown">The "hasDigitalAnalogous" property represents a relationship between an entity and its exact digital reproduction. This property is used to link entities to their precise digital counterparts, which maintain all attributes and characteristics of the original. Examples of such digital analogues include a PDF version of a book, a digital twin of a building or city, or an exact 3D reconstruction of a physical object. The "hasDigitalAnalogous" property emphasizes the fidelity and accuracy of the digital reproduction in relation to the original entity, ensuring that the digital version tends to serve as an exact representation.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -10590,6 +11045,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="hasDigitalVersion">
   <h3>has Digital Version<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#hasDigitalVersion</p>
+  <div class="comment">
+   <span class="markdown">The "hasDigitalVersion" property represents a relationship between an entity and its digital counterpart, where the digital version is not merely a reproduction but a variation or interpretation of the original entity. This digital version may incorporate additional elements, contextual adjustments, or creative reinterpretations that distinguish it from a straightforward digital copy. The property emphasizes the transformative nature of the digital version, which can offer new perspectives, enhanced features, or alternative forms of engagement with the original entity. The relationship between an entity and its exact digital counterpart is defined as “hasDigitalAnalogous,” while the relationship between an activity and its mere recording is defined as “hasDigitalRecording.”</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -10834,6 +11292,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="hasExhibitingActant">
   <h3>has Exhibiting Actant<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#hasExhibitingActant</p>
+  <div class="comment">
+   <span class="markdown">The "hasExhibitingActant" property identifies the creative agents who participate in an exhibition by showcasing their works. This property links an exhibition or event to the agents (individuals or groups) responsible for exhibiting their creations, thereby acknowledging their role in the presentation of the artworks. For instance: Picasso is ExhibitingActantIn the exhibition “Picasso, 1906. The great transformation.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -10956,6 +11417,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="hasExhibitor">
   <h3>has Exhibitor<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#hasExhibitor</p>
+  <div class="comment">
+   <span class="markdown">This property identifies the agents (such as institutions, gallerists, collectors, etc.) that participate in an exhibition with their works. This property links an exhibition or event to the exhibitors who contribute by providing or showcasing their collections, acknowledging their role in the exhibition. For instance: Galería Alfredo Viñas isExhibitorIn Arco 2020 (art fair).</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -11568,6 +12032,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="hasMembership">
   <h3>has Membership<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#hasMembership</p>
+  <div class="comment">
+   <span class="markdown">Indicates that a human agent holds a membership within a collective human agent as represented by the Membership class.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -11724,6 +12191,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="hasOrderingPrinciple">
   <h3>has Ordering Principle<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#hasOrderingPrinciple</p>
+  <div class="comment">
+   <span class="markdown">Relates an organization schema to the ordering principle(s) it implements. A schema may implement multiple principles (e.g., thematic + chronological), and a principle may be realized by multiple schemas.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -13063,6 +13533,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="hasSpatialLocus">
   <h3>has Spatial Locus<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#hasSpatialLocus</p>
+  <div class="comment">
+   <span class="markdown">This property relates an Event to a spatial anchor—physical or digital—used to situate the event in space when such contextualization is meaningful. It is intentionally broad and optional: many events can be spatially located in principle, but the location may be unknown, irrelevant, or not recorded. Use hasSpatialLocus for lightweight contextual placement (e.g., an interaction occurring in a messaging platform, an assignment made within an institutional system, a reaction recorded via a device), without implying that the event has a formal venue or that spatial information is a primary descriptive feature. Typical use: contextual, “if needed” spatialization of any event (including non-programmed or non-operational events).</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -15365,6 +15838,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="isExhibitingActantIn">
   <h3>is Exhibiting Actant In<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#isExhibitingActantIn</p>
+  <div class="comment">
+   <span class="markdown">This property identifies the creative agents who participate in an exhibition by showcasing their works. This property links an exhibition or event to the agents (individuals or groups) responsible for exhibiting their creations, thereby acknowledging their role in the presentation of the artworks. For instance: Picasso is ExhibitingActantIn the exhibition “Picasso, 1906. The great transformation".</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -15545,6 +16021,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="isExhibitorIn">
   <h3>is Exhibitor In<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#isExhibitorIn</p>
+  <div class="comment">
+   <span class="markdown">This property identifies the agents (such as institutions, gallerists, collectors, etc.) that participate in an exhibition with their works. This property links an exhibition or event to the exhibitors who contribute by providing or showcasing their collections, acknowledging their role in the exhibition. For instance: Galería Alfredo Viñas isExhibitorIn Arco 2020 (art fair).</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -18827,6 +19306,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="takesPlaceAt">
   <h3>takes Place At<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#takesPlaceAt</p>
+  <div class="comment">
+   <span class="markdown">This property relates an Activity (including both Process and Planned_Activity) to its broader place of occurrence—the territorial or techno-spatial context in which the activity unfolds. It is used to record the general geographic or infrastructural setting of an activity (e.g., a city, region, country, or a digital/technical environment), independently of the specific host site. In this model, takesPlaceAt complements hasVenue: while hasVenue points to the concrete hosting site (e.g., a museum building, gallery, institutional facility, or platform-as-site), takesPlaceAt captures the wider territorial or techno-place context that situates that venue and the activity within a larger spatial frame. Typical use: Exhibition hasVenue Villanueva building (Museo del Prado) (site) Exhibition takesPlaceAt Madrid (territorial entity) Online activities may use takesPlaceAt to indicate the relevant techno-place (e.g., a platform/ecosystem) when the broader infrastructural context matters.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -19034,6 +19516,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="apelation">
   <h3>appellation<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#apelation</p>
+  <div class="comment">
+   <span class="markdown">The "appellation" data property represents alternative names, titles, or designations assigned to an entity, other than the official name. This property is used to specify commonly recognized names, nicknames, colloquial titles, or other forms of identification that serve to distinguish and identify the entity beyond its official designation. Instances are El Greco, Museo Reina Sofía (being the official name: Museo Nacional Centro de Arte Reina Sofía), Big Apple (New York), El Quijote, etc.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -19054,6 +19539,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="awards">
   <h3>awards<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#awards</p>
+  <div class="comment">
+   <span class="markdown">Describes the prizes or recognitions that will be awarded to the winners.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -19122,6 +19610,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="description">
   <h3>description<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#description</p>
+  <div class="comment">
+   <span class="markdown">A detailed textual description of the entity, including its purpose, functionalities, and key features.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -19213,6 +19704,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="identifier">
   <h3>identifier<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#identifier</p>
+  <div class="comment">
+   <span class="markdown">The "identifier" data property represents a unique code, number, or string assigned to an entity within various authority vocabularies. This property is used to specify the authoritative identifier that distinguishes an entity in controlled vocabularies, databases, or registries maintained by recognized institutions or organizations. Identifiers ensure consistent and unambiguous reference to entities across different systems and contexts.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -19253,6 +19747,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="name">
   <h3>name<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#name</p>
+  <div class="comment">
+   <span class="markdown">The official name or designation of an entity.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -19353,6 +19850,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="population">
   <h3>population<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#population</p>
+  <div class="comment">
+   <span class="markdown">Number of inhabitants.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -19433,6 +19933,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="software_version">
   <h3>software version<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#software_version</p>
+  <div class="comment">
+   <span class="markdown">A detailed list of the technical specifications and requirements of the techno-actant.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -19447,6 +19950,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="status">
   <h3>status<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#status</p>
+  <div class="comment">
+   <span class="markdown">A detailed list of the technical specifications and requirements of the techno-actant.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
@@ -19487,6 +19993,9 @@ This section provides details for each class and property defined by OntoExhibit
  <div class="entity" id="technical_specifications">
   <h3>technical specifications<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> https://w3id.org/OntoExhibit#technical_specifications</p>
+  <div class="comment">
+   <span class="markdown">A detailed list of the technical specifications and requirements of the techno-actant.</span>
+  </div>
   <div class="description">
    <dl>
     <dt>
