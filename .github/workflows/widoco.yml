@@ -46,7 +46,67 @@ jobs:
         run: |
           find docs -name "*.html" -exec sed -i -E 's/width="50\/?\/*"/width="200"/g' {} +
           find docs -name "*.html" -exec sed -i 's|</head>|<style>.modeling-note-title { background-color: #f8f9fa; border-left: 4px solid #17a2b8; padding: 5px 10px; margin-top: 15px; font-weight: bold; color: #17a2b8; display: inline-block; border-radius: 4px 4px 0 0; } .modeling-note-body { background-color: #f8f9fa; border-left: 4px solid #17a2b8; padding: 10px 15px; margin-bottom: 15px; font-style: italic; color: #495057; border-radius: 0 4px 4px 4px; }</style></head>|g' {} +
-          find docs -name "*.html" -exec sed -i 's~</body>~<script>document.addEventListener("DOMContentLoaded", function() { document.querySelectorAll("dt").forEach(function(dt) { var t = dt.textContent.trim().toLowerCase(); if (t === "nota de modelado" || t === "modeling note") { dt.classList.add("modeling-note-title"); var dd = dt.nextElementSibling; if (dd && dd.tagName === "DD") { dd.classList.add("modeling-note-body"); } } }); });</script></body>~g' {} +
+          cat << 'EOF' > inject_notes.py
+          import os
+          import re
+
+          with open('resources/ontoExhibit.rdf', 'r', encoding='utf-8') as f:
+              rdf_content = f.read()
+
+          notes_by_entity = {}
+          blocks = re.split(r'(<(?:owl:Class|owl:ObjectProperty|owl:DatatypeProperty|rdf:Description)[^>]*>)', rdf_content)
+
+          current_entity = None
+          for block in blocks:
+              if block.startswith('<owl:Class') or block.startswith('<owl:ObjectProperty') or block.startswith('<owl:DatatypeProperty') or block.startswith('<rdf:Description'):
+                  match = re.search(r'rdf:about="[^"]+#([^"]+)"', block)
+                  if match:
+                      current_entity = match.group(1)
+              else:
+                  if current_entity:
+                      matches = re.finditer(r'<modelingNote xml:lang="([^"]+)">([\s\S]*?)</modelingNote>', block)
+                      for m in matches:
+                          lang = m.group(1)
+                          text = m.group(2)
+                          if current_entity not in notes_by_entity:
+                              notes_by_entity[current_entity] = {}
+                          notes_by_entity[current_entity][lang] = text
+                      current_entity = None
+
+          def process_html(filepath, lang):
+              if not os.path.exists(filepath):
+                  return
+              with open(filepath, 'r', encoding='utf-8') as f:
+                  html = f.read()
+              
+              for entity, langs in notes_by_entity.items():
+                  if lang in langs:
+                      text = langs[lang]
+                      title = "nota de modelado" if lang == "es" else "modeling note"
+                      injection = f'<div class="modeling-note-title">{title}</div><div class="modeling-note-body">{text}</div>'
+                      
+                      entity_pattern = f'<div class="entity" id="{entity}">'
+                      entity_idx = html.find(entity_pattern)
+                      if entity_idx != -1:
+                          next_entity_idx = html.find('<div class="entity"', entity_idx + 1)
+                          if next_entity_idx == -1: next_entity_idx = len(html)
+                          
+                          dl_idx = html.find('<dl class="description">', entity_idx, next_entity_idx)
+                          if dl_idx != -1:
+                              html = html[:dl_idx] + injection + '\n  ' + html[dl_idx:]
+                          else:
+                              comment_idx = html.find('</div>', html.find('<div class="comment">', entity_idx, next_entity_idx))
+                              if comment_idx != -1:
+                                  html = html[:comment_idx+6] + '\n  ' + injection + html[comment_idx+6:]
+
+              with open(filepath, 'w', encoding='utf-8') as f:
+                  f.write(html)
+
+          process_html('docs/index-en.html', 'en')
+          process_html('docs/index-es.html', 'es')
+          print("Injected notes into HTML successfully")
+          EOF
+          python3 inject_notes.py
 
       - name: Deploy Premium Landing Page
         run: |
